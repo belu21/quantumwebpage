@@ -1,30 +1,50 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+/* function HelloWorld(props){
+  //console.log(props)
+  return (
+  <div id="hello">{props.mytext}</div>
+  )
+} */
+
+class HelloWorld extends React.Component {
+
+  state={
+    show:true
+  }
+
+  toogleShow= () =>{
+    this.setState({show: !this.state.show})
+  }
+  
+  render(){
+      if (this.state.show){
+        return(
+          <div id="hello">
+            <h3>{this.props.subtitle}</h3>
+            <h1>{this.props.mytext}</h1>
+            <button onClick={this.toogleShow}>Toogle Show</button>
+          </div>
+  
+        )
+      }
+      else{
+        return (
+        <div><h2>No retorno nada</h2>
+          <button onClick={this.toogleShow}>Toogle Show</button>
+        </div>)
+      }
+    }
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React :)
-<<<<<<< HEAD
-          jeje
-=======
-          <br/>
-          No quiero la carita
->>>>>>> 32d7b08a3b144ccb4d15bf7680cacefa48365fb5
-        </a>
-      </header>
+    <div>
+      This is my components: 
+      <HelloWorld mytext="Hello Ronald"/>
+      <HelloWorld mytext="How are you"/>
+      <HelloWorld mytext="?????"/>
     </div>
   );
 }
