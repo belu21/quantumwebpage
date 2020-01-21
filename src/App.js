@@ -17,6 +17,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React :)
+          <br/>
+          No quiero la carita
         </a>
       </header>
     </div>
