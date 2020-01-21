@@ -17,7 +17,12 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React :)
+<<<<<<< HEAD
           jeje
+=======
+          <br/>
+          No quiero la carita
+>>>>>>> 32d7b08a3b144ccb4d15bf7680cacefa48365fb5
         </a>
       </header>
     </div>
