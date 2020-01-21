@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import Navbar from 'react-bootstrap/Navbar'
+import { Button, Nav,Form,FormControl, NavDropdown} from 'react-bootstrap';
 
 /* function HelloWorld(props){
   //console.log(props)
@@ -21,7 +23,7 @@ class HelloWorld extends React.Component {
   render(){
       if (this.state.show){
         return(
-          <div id="hello">
+          <div className="container">
             <h3>{this.props.subtitle}</h3>
             <h1>{this.props.mytext}</h1>
             <button onClick={this.toogleShow}>Toogle Show</button>
@@ -31,7 +33,7 @@ class HelloWorld extends React.Component {
       }
       else{
         return (
-        <div><h2>No retorno nada</h2>
+        <div className="container"><h2>No retorno nada</h2>
           <button onClick={this.toogleShow}>Toogle Show</button>
         </div>)
       }
@@ -40,12 +42,39 @@ class HelloWorld extends React.Component {
 
 function App() {
   return (
-    <div>
+    <div class="card">
+      <NavBar/>
       This is my components: 
       <HelloWorld mytext="Hello Ronald"/>
       <HelloWorld mytext="How are you"/>
       <HelloWorld mytext="?????"/>
     </div>
+  );
+}
+
+function NavBar(){
+  return (
+   <div><Navbar bg="light" expand="lg">
+   <Navbar.Brand href="#home">Commit SRL</Navbar.Brand>
+   <Navbar.Toggle aria-controls="basic-navbar-nav" />
+   <Navbar.Collapse id="basic-navbar-nav">
+     <Nav className="mr-auto">
+       <Nav.Link href="#home">Home</Nav.Link>
+       <Nav.Link href="#link">Link</Nav.Link>
+       <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+         <NavDropdown.Divider />
+         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+       </NavDropdown>
+     </Nav>
+     <Form inline>
+       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+       <Button variant="outline-success">Search</Button>
+     </Form>
+   </Navbar.Collapse>
+ </Navbar></div>
   );
 }
 
