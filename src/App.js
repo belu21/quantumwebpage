@@ -42,9 +42,12 @@ import Footer from './components/Footer.js';
 
 function App() {
   return (
-    <div className="card">
+    <div>
       <NavBar/>
-      This is my components: 
+      <div className="align-middle">
+      This is my component: 
+      </div>
+      
       {/* <HelloWorld mytext="Hello Ronald"/>
       <HelloWorld mytext="How are you"/>
       <HelloWorld mytext="?????"/> */}
