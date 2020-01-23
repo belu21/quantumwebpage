@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar.js';
+import Footer from './components/Footer.js';
 
 /* function HelloWorld(props){
   //console.log(props)
@@ -47,6 +48,8 @@ function App() {
       {/* <HelloWorld mytext="Hello Ronald"/>
       <HelloWorld mytext="How are you"/>
       <HelloWorld mytext="?????"/> */}
+    
+      <Footer/>
     </div>
   );
 }
