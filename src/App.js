@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from 'react-bootstrap/Navbar'
-import { Button, Nav,Form,FormControl, NavDropdown} from 'react-bootstrap';
+import NavBar from './components/NavBar.js';
 
 /* function HelloWorld(props){
   //console.log(props)
@@ -10,7 +9,7 @@ import { Button, Nav,Form,FormControl, NavDropdown} from 'react-bootstrap';
   )
 } */
 
-class HelloWorld extends React.Component {
+/* class HelloWorld extends React.Component {
 
   state={
     show:true
@@ -38,21 +37,21 @@ class HelloWorld extends React.Component {
         </div>)
       }
     }
-}
+} */
 
 function App() {
   return (
-    <div class="card">
+    <div className="card">
       <NavBar/>
       This is my components: 
-      <HelloWorld mytext="Hello Ronald"/>
+      {/* <HelloWorld mytext="Hello Ronald"/>
       <HelloWorld mytext="How are you"/>
-      <HelloWorld mytext="?????"/>
+      <HelloWorld mytext="?????"/> */}
     </div>
   );
 }
 
-function NavBar(){
+/* function NavBar(){
   return (
    <div><Navbar bg="light" expand="lg">
    <Navbar.Brand href="#home">Commit SRL</Navbar.Brand>
@@ -76,6 +75,6 @@ function NavBar(){
    </Navbar.Collapse>
  </Navbar></div>
   );
-}
+} */
 
 export default App;
