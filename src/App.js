@@ -1,26 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar.js';
+import Footer from './components/Footer.js';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import Nosotros from './components/Nosotros';
+import Servicios from './components/Servicios';
+import Partners from './components/Partners';
+import Clientes from './components/Clientes';
+import Equipamiento from './components/Equipamiento'
+import CasosExito from './components/CasosExito';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <NavBar />
+        <Route path="/" exact component={Home}></Route>
+        <Route path="/nosotros" component={Nosotros} />
+        <Route path="/servicios" component={Servicios} />
+        <Route path="/equipamiento" component={Equipamiento} />
+        <Route path="/partners" component={Partners} />
+        <Route path="/clientes" component={Clientes} />
+        <Route path="/casosexito" component={CasosExito} />
+        <Footer />
+      </div>
+    </Router>
   );
 }
+
+const Home = () => (
+  <div className="container">
+    <h2 className="text-center card">CommIT es una empresa enmarcada en el sector de las nuevas Tecnologías de la Información y Comunicación (TICs)</h2>
+    <h3>que nace para ofrecer servicios especializados y de consultoría, integrando soluciones de alta calidad tanto en las administraciones públicas como en el sector privado.\r\n\r\nLa empresa CommIT tiene el nombre emblemático que representa la Tecnología en todo ámbito. Actualmente contamos con un grupo de programadores y expertos que la conforman y que ya llevan muchos años
+          trabajando en dar soluciones IT a clientes particulares y empresas.</h3>
+  </div>
+)
 
 export default App;
