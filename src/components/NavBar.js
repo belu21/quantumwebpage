@@ -1,32 +1,44 @@
 import React from 'react';
 
-import { Navbar,Button, Nav,Form,FormControl} from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class NavBar extends React.Component {
     render() {
         return <div><Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home">Commit SRL</Navbar.Brand>
+            <Link to="/" component="Home">
+                <Navbar.Brand href="./">Commit SRL</Navbar.Brand>
+            </Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#home">Nosotros</Nav.Link>
-                    <Nav.Link href="#link">Servicios y Soluciones</Nav.Link>
-                    <Nav.Link href="#link">Equipamiento</Nav.Link>
-                    <Nav.Link href="#link">Partners</Nav.Link>
-                    <Nav.Link href="#link">Clientes</Nav.Link>
-                    <Nav.Link href="#link">Casos de Exito</Nav.Link>
-                    {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                    </NavDropdown> */}
+                    <Link to="/" component="Home">
+                        <Nav.Link href="./">Home</Nav.Link>
+                    </Link>
+                    <Link to="/nosotros">
+                        <Nav.Link href="./nosotros">Nosotros</Nav.Link>
+                    </Link>
+                    <Link to="/servicios">
+                        <Nav.Link href="./servicios">Servicios y Soluciones</Nav.Link>
+                    </Link>
+                    <Link to="/equipamiento">
+                        <Nav.Link href="./equipamiento">Equipamiento</Nav.Link>
+                    </Link>
+                    <Link to="/partners">
+                        <Nav.Link href="./partners">Partners</Nav.Link>
+                    </Link>
+                    <Link to="/clientes">
+                        <Nav.Link href="./clientes">Clientes</Nav.Link>
+                    </Link>
+                    <Link to="/casosexito">
+                        <Nav.Link href="casosexito">Casos de Exito</Nav.Link>
+                    </Link>
                 </Nav>
-                <Form inline>
+
+                {/* <Form inline>
                     <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                     <Button variant="outline-success">Search</Button>
-                </Form>
+                </Form> */}
             </Navbar.Collapse>
         </Navbar></div>
     }
