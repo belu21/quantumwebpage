@@ -1,5 +1,17 @@
 {
-    "id": "1",
-    "titulo": "",
-    "texto": ""
+    "valores": {
+        "id": "1",
+        "titulo": "Nuestros Valores en CommIT",
+        "texto": "Ética incuestionable: La integridad es la base fundamental de nuestra vida diaria y sustenta cada decisión que tomamos. Compromiso con el éxito de nuestros clientes: Nos esforzamos en entender las necesidades de negocios de nuestros clientes internos y externos, y nos comprometemos decididamente a cumplir lo que ofrecemos. Sentimos gran orgullo por nuestro trabajo y por el éxito de nuestros clientes. Flexibilidad y agilidad con un propósito: Nuestra rapidez y creatividad nos dan una singular capacidad para adaptarnos a requerimientos nuevos y cambiantes, lo que nos permite crear soluciones alternativas que rápidamente satisfacen las necesidades del negocio de nuestros clientes y contribuyen a mejorar sus resultados.  Sentido de equipo: Creemos en la colaboración y en la confianza mutua. Actuamos como un sólo equipo dondequiera que nos encontremos. Entendemos que nuestro éxito global depende de la sinergia que construyamos en conjunto.  Respeto por el individuo y por la diversidad: Tratamos a todas las personas con respeto independientemente de su etnia, origen, edad, género, creencias, posición y asociación con Neoris. Para nosotros las diferencias no son obstáculos sino valiosas oportunidades de aprendizaje.  Responsabilidad: Nos preocupamos por el servicio que ofrecemos, y nos hacemos responsables por él. La interacción con nuestros relacionados se basa en confianza, transparencia, honestidad y mutuo beneficio, y nos hacemos responsables porque esto sea así."
+    },
+    "mision":{
+        "id": "2",
+        "titulo": "Mision",
+        "texto": "CommIT es una empresa de servicios que provee consultoría de valor agregado en negocios y TI, soluciones de tecnología emergente y servicios de outsourcing. Establecemos relaciones de largo plazo con nuestros clientes, ayudándolos a mejorar su desempeño en las diferentes fases de su negocio."
+    },
+    "vision":{
+        "id": "3",
+        "titulo": "Vision",
+        "texto": "Ser la empresa líder en bolivia en generación de valor de negocios para nuestros clientes"
+    }
 }

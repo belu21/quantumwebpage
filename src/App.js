@@ -12,10 +12,10 @@ import CasosExito from './components/CasosExito';
 
 function App() {
   return (
-    <Router>
-      <div>
+    <div>
+      <Router>
         <NavBar />
-        <Route path="/" exact component={Home}></Route>
+        <Route path="/" exact component={Home} />
         <Route path="/nosotros" component={Nosotros} />
         <Route path="/servicios" component={Servicios} />
         <Route path="/equipamiento" component={Equipamiento} />
@@ -23,8 +23,8 @@ function App() {
         <Route path="/clientes" component={Clientes} />
         <Route path="/casosexito" component={CasosExito} />
         <Footer />
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 

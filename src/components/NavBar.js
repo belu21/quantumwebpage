@@ -6,39 +6,20 @@ import { Link } from 'react-router-dom';
 class NavBar extends React.Component {
     render() {
         return <div><Navbar bg="light" expand="lg">
-            <Link to="/" component="Home">
-                <Navbar.Brand href="./">Commit SRL</Navbar.Brand>
+            <Link to="/" className="navbar-brand">
+                CommIT SRL
             </Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Link to="/" component="Home">
-                        <Nav.Link href="./">Home</Nav.Link>
-                    </Link>
-                    <Link to="/nosotros">
-                        <Nav.Link href="./nosotros">Nosotros</Nav.Link>
-                    </Link>
-                    <Link to="/servicios">
-                        <Nav.Link href="./servicios">Servicios y Soluciones</Nav.Link>
-                    </Link>
-                    <Link to="/equipamiento">
-                        <Nav.Link href="./equipamiento">Equipamiento</Nav.Link>
-                    </Link>
-                    <Link to="/partners">
-                        <Nav.Link href="./partners">Partners</Nav.Link>
-                    </Link>
-                    <Link to="/clientes">
-                        <Nav.Link href="./clientes">Clientes</Nav.Link>
-                    </Link>
-                    <Link to="/casosexito">
-                        <Nav.Link href="casosexito">Casos de Exito</Nav.Link>
-                    </Link>
+                    <Link to="/" className="nav-link">Home</Link>
+                    <Link to="/nosotros" className="nav-link">Nosotros</Link>
+                    <Link to="/servicios" className="nav-link">Servicios y Soluciones</Link>
+                    <Link to="/equipamiento" className="nav-link">Equipamiento</Link>
+                    <Link to="/partners" className="nav-link">Partners</Link>
+                    <Link to="/clientes" className="nav-link">Clientes</Link>
+                    <Link to="/casosexito" className="nav-link">Casos de Exito</Link>
                 </Nav>
-
-                {/* <Form inline>
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                    <Button variant="outline-success">Search</Button>
-                </Form> */}
             </Navbar.Collapse>
         </Navbar></div>
     }
