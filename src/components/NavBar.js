@@ -5,10 +5,8 @@ import { Link } from 'react-router-dom';
 
 class NavBar extends React.Component {
     render() {
-        return <div><Navbar bg="light" expand="lg">
-            <Link to="/" className="navbar-brand">
-                CommIT SRL
-            </Link>
+        return <div><Navbar bg="dark" expand="lg" variant="dark">
+            <Link to="/" className="navbar-brand">CommIT SRL</Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
