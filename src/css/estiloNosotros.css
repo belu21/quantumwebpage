@@ -1,6 +1,10 @@
-.card-body{
 
-    font-family: 'Consolas';
+.card-text{
+    font-family: Poppins-Regular;
     max-width:100%;
     text-align: justify;
+}
+.card-header{
+    font-family: Poppins-SemiBold;
+    font-size: 200%;
 }

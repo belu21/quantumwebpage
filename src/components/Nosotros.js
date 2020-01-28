@@ -1,6 +1,7 @@
 import React from 'react'
 import nosotros from '../json/nosotros'
-import estiloNosotros from '../css/estiloNosotros.css'
+import '../css/estiloNosotros.css'
+
 
 console.log(nosotros)
 const valores = nosotros.valores;
