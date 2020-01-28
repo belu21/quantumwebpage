@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 class NavBar extends React.Component {
     render() {
-        return <div><Navbar bg="dark" expand="lg" variant="dark">
+        return <div><Navbar bg="dark" expand="lg" variant="dark" fixed="top">
             <Link to="/" className="navbar-brand">CommIT SRL</Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -19,7 +19,7 @@ class NavBar extends React.Component {
                     <Link to="/casosexito" className="nav-link">Casos de Exito</Link>
                 </Nav>
             </Navbar.Collapse>
-        </Navbar></div>
+        </Navbar><br/><br/></div>
     }
 }
 export default NavBar;

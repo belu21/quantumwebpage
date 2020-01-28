@@ -6,25 +6,37 @@ const valores = nosotros.valores;
 console.log(valores);
 function Nosotros() {
     return <div className="container py-4">
-        <div className="card text-white bg-dark mb-3" styleName="max-width:18rem; font-family='Basier Square SemiBold';" >
+        <div className="card text-white bg-dark mb-3" >
             <div className="card-header">NOSOTROS</div>
             <div className="card-body">
                 <p className="card-text">{nosotros.valores.texto}</p>
             </div>
         </div>
         <Mision />
-        <p>{nosotros.mision.texto}</p>
         <Vision />
-        <p>{nosotros.vision.texto}</p>
+        <Vision /><Vision /><Vision /><Vision />
     </div>;
 }
 
 function Mision() {
-    return <h1>Mision</h1>;
+    return <div>
+        {/* <Tarjeta titulo="{nosotros.mision.titulo}" texto="{nosotros.mision.texto}"></Tarjeta> */}
+        <div className="card text-white bg-dark mb-3">
+            <div className="card-header">Mision</div>
+            <div className="card-body">
+                <p className="card-text">{nosotros.vision.texto}</p>
+            </div>
+        </div>
+    </div>;
 }
 
 function Vision() {
-    return <h1>Vision</h1>;
+    return <div className="card text-white bg-dark mb-3">
+            <div className="card-header">Vision</div>
+            <div className="card-body">
+                <p className="card-text">{nosotros.vision.texto}</p>
+            </div>
+        </div>;
 }
 
 export default Nosotros;
