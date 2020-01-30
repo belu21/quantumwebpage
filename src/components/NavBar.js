@@ -12,7 +12,7 @@ class NavBar extends React.Component {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <Link to="/" className="nav-link">Home</Link>
-        
+
                     <NavDropdown title="Nosotros" id="basic-nav-dropdown">
                         <Link to="/nosotros/quienessomos" className="nav-link text-dark bg-light">Quienes somos</Link>
                         <Link to="/nosotros/mision" className="nav-link text-dark bg-light">Mision</Link>
@@ -20,7 +20,6 @@ class NavBar extends React.Component {
                         <NavDropdown.Divider />
                         <NavDropdown.Item>Separated link</NavDropdown.Item>
                     </NavDropdown>
-                    
                     <Link to="/servicios" className="nav-link">Servicios y Soluciones</Link>
                     <Link to="/equipamiento" className="nav-link">Equipamiento</Link>
                     <Link to="/partners" className="nav-link">Partners</Link>
