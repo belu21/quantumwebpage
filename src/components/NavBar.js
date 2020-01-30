@@ -14,11 +14,11 @@ class NavBar extends React.Component {
                     <Link to="/" className="nav-link">Home</Link>
         
                     <NavDropdown title="Nosotros" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Something</NavDropdown.Item>
+                        <Link to="/nosotros/quienessomos" className="nav-link text-dark bg-light">Quienes somos</Link>
+                        <Link to="/nosotros/mision" className="nav-link text-dark bg-light">Mision</Link>
+                        <Link to="/nosotros/vision" className="nav-link text-dark bg-light">Vision</Link>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
+                        <NavDropdown.Item>Separated link</NavDropdown.Item>
                     </NavDropdown>
                     
                     <Link to="/servicios" className="nav-link">Servicios y Soluciones</Link>
