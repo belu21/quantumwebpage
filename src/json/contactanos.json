@@ -9,9 +9,7 @@
     "contacto":{
         "id":"2",
         "titulo":"Contactanos",
-        "subs":{
-            "1":""
-        }
+        "subs":[]
     }
 
 

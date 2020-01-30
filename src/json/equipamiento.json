@@ -2,16 +2,16 @@
     "infraestructura":{
         "id":"1",
         "titulo":"Infraestructura",
-        "subs":{
-            "1":"Servidores Dell"
-        }
+        "subs":[
+            "Servidores Dell"
+        ]
     },
     "seguridad":{
         "id":"2",
         "titulo":"Seguridad en Redes",
-        "subs":{
-            "1":"Routers Cisco"
-        }
+        "subs":[
+            "Routers Cisco"
+        ]
     }
 
 

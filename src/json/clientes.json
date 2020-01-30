@@ -2,35 +2,35 @@
     "telecomunicaciones":{
         "id":"1",
         "titulo":"Empresas de Telecomunicaciones",
-        "subs":{
-            "1":"ENTEL",
-            "2":"TIGO",
-            "3":"COTAS"
-        }
+        "subs":[
+            "ENTEL",
+            "TIGO",
+            "COTAS"
+        ]
     },
     "financieras":{
         "id":"2",
         "titulo":"Empresas Financieras",
-        "subs":{
-            "1":"Banco Economico EDV",
-            "2":"Banco Central de Bolivia",
-            "3":"Jesús Nazareno",
-            "4":"San Martin de Porres",
-            "5":"Fátima",
-            "6":"Brinks Bolivia"
-        }
+        "subs":[
+            "Banco Economico EDV",
+            "Banco Central de Bolivia",
+            "Jesús Nazareno",
+            "San Martin de Porres",
+            "Fátima",
+            "Brinks Bolivia"
+        ]
     },
     "petroleras":{
         "id":"3",
         "titulo":"Empresas Petroleras",
-        "subs":{
-            "1":"Andina",
-            "2":"Chaco",
-            "3":"Repsol",
-            "4":"Petrobras",
-            "5":"Transporte"
+        "subs":[
+            "Andina",
+            "Chaco",
+            "Repsol",
+            "Petrobras",
+            "Transporte"
             
-        }
+        ]
     }
 
 }
