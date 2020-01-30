@@ -29,7 +29,7 @@ function App() {
 }
 
 const Home = () => (
-  <div className="py-4 mw-100 w-100 container">
+  <div className="py-5 mw-100 w-100 container">
     <div className="card text-white bg-dark mb-3" >
       <div className="card-header bg-danger">CommIT SRL</div>
       <div className="card-body-custom card-body">
