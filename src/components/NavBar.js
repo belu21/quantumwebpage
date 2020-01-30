@@ -11,16 +11,14 @@ class NavBar extends React.Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Link to="/" className="nav-link">Home</Link>
-        
-                    <NavDropdown title="Nosotros" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Something</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
+                    <Link to="/" className="nav-link">Home</Link>  
+                    <Link to="/nosotros" className="nav-link">
+                    <NavDropdown title="Nosotros" id="collasible-nav-dropdown">
+                        <NavDropdown.Item href="#valores">Nuestros valores</NavDropdown.Item>
+                        <NavDropdown.Item href="#mision">Mision</NavDropdown.Item>
+                        <NavDropdown.Item href="#vision">Vision</NavDropdown.Item>
                     </NavDropdown>
-                    
+                    </Link>
                     <Link to="/servicios" className="nav-link">Servicios y Soluciones</Link>
                     <Link to="/equipamiento" className="nav-link">Equipamiento</Link>
                     <Link to="/partners" className="nav-link">Partners</Link>
