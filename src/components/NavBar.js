@@ -25,9 +25,10 @@ class NavBar extends React.Component {
                     <Link to="/partners" className="nav-link">Partners</Link>
                     <Link to="/clientes" className="nav-link">Clientes</Link>
                     <Link to="/casosexito" className="nav-link">Casos de Exito</Link>
+                    <Link to="/" className="nav-link">Contáctanos</Link>
                 </Nav>
             </Navbar.Collapse>
-        </Navbar><br /><br /></div>
+        </Navbar><br /><br/></div>
     }
 }
 export default NavBar;

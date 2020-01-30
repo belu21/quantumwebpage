@@ -1,4 +1,38 @@
 {
+    "cloudComputing":{
+        "id":"1",
+        "titulo":"Cloud Computing",
+        "subs":[
+            "Consolidación de servidores mediante la Virtualización",
+            "Implementación de Cloud privada mediante OpenStack",
+            "Contenedores, kubernetes",
+            "Storage definido por software",
+            "Infraestructura definida por Software",
+            "Implementación de Data Center (Servidores, Almacenamiento y Red)"
+        ]
 
-    
+    },
+    "continuidad":{
+        "id":"2",
+        "titulo":"Continuidad de Negocio",
+        "subs":[
+            "Alta Disponibilidad",
+            "Disaster Recovery",
+            "Site Recovery"
+        ]
+    },
+    "desarrolloSoftware":{
+        "id":"3",
+        "titulo":"Desarrollo de Software",
+        "Subs":[]
+    },
+    "gestionServicios":{
+        "id":"2",
+        "titulo":"Gestion de Servicios IT",
+        "subs":[
+            "ITIL",
+            "OTRS"
+        ]
+    }
+   
 }

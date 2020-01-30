@@ -1,0 +1,35 @@
+{
+    "redhat":{
+        "id":"1",
+        "titulo":"RedHat",
+        "subs":[]
+    },
+    "hp":{
+        "id":"2",
+        "titulo":"HP",
+        "subs":[]
+    },
+    "suse":{
+        "id":"3",
+        "titulo":"SUSE",
+        "subs":[]
+        
+    },
+    "sophos":{
+        "id":"4",
+        "titulo":"Sophos",
+        "subs":[]
+    },
+    "cisco":{
+        "id":"5",
+        "titulo":"CISCO",
+        "subs":[]
+    },
+    "dell":{
+        "id":"6",
+        "titulo":"Dell",
+        "subs":[]
+    }
+
+
+}
