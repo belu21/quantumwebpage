@@ -1,13 +1,13 @@
 {
-    "valores": {
+    "antecedentes": {
         "id": "1",
         "titulo": "Nuestros Valores en CommIT",
-        "texto": "Ética incuestionable: La integridad es la base fundamental de nuestra vida diaria y sustenta cada decisión que tomamos. Compromiso con el éxito de nuestros clientes: Nos esforzamos en entender las necesidades de negocios de nuestros clientes internos y externos, y nos comprometemos decididamente a cumplir lo que ofrecemos. Sentimos gran orgullo por nuestro trabajo y por el éxito de nuestros clientes. Flexibilidad y agilidad con un propósito: Nuestra rapidez y creatividad nos dan una singular capacidad para adaptarnos a requerimientos nuevos y cambiantes, lo que nos permite crear soluciones alternativas que rápidamente satisfacen las necesidades del negocio de nuestros clientes y contribuyen a mejorar sus resultados.  Sentido de equipo: Creemos en la colaboración y en la confianza mutua. Actuamos como un sólo equipo dondequiera que nos encontremos. Entendemos que nuestro éxito global depende de la sinergia que construyamos en conjunto.  Respeto por el individuo y por la diversidad: Tratamos a todas las personas con respeto independientemente de su etnia, origen, edad, género, creencias, posición y asociación con Neoris. Para nosotros las diferencias no son obstáculos sino valiosas oportunidades de aprendizaje.  Responsabilidad: Nos preocupamos por el servicio que ofrecemos, y nos hacemos responsables por él. La interacción con nuestros relacionados se basa en confianza, transparencia, honestidad y mutuo beneficio, y nos hacemos responsables porque esto sea así."
+        "texto": "Commit es una empresa de  Tecnologías especializada en servicios IT que brinda servicios de consultoría y desarrollo. Somos una empresa con mas de 10 años en el mercado y presencia a nivel nacional Nuestros ingenieros son altamente calificados, de diferentes rubros tecnológicos  especializados en brindar soluciones de IT acorde a las necesidades de nuestros clientes con tecnología de vanguardia."
     },
     "mision":{
         "id": "2",
         "titulo": "Mision",
-        "texto": "CommIT es una empresa de servicios que provee consultoría de valor agregado en negocios y TI, soluciones de tecnología emergente y servicios de outsourcing. Establecemos relaciones de largo plazo con nuestros clientes, ayudándolos a mejorar su desempeño en las diferentes fases de su negocio."
+        "texto": "Somos una empresa que ofrecemos soluciones tecnológicas innovadoras acorde a sus necesidades con un compromiso de excelencia."
     },
     "vision":{
         "id": "3",
@@ -18,5 +18,18 @@
         "id": "4",
         "titulo": "Inicio",
         "texto": "<h2 className='text-center card' >CommIT es una empresa enmarcada en el sector de las nuevas Tecnologías de la Información y Comunicación (TICs)</h2><h3>que nace para ofrecer servicios especializados y de consultoría, integrando soluciones de alta calidad tanto en las administraciones públicas como en el sector privado. La empresa CommIT tiene el nombre emblemático que representa la Tecnología en todo ámbito. Actualmente contamos con un grupo de programadores y expertos que la conforman y que ya llevan muchos años trabajando en dar soluciones IT a clientes particulares y empresas.</h3>"
+    },
+    "quienessomos":{
+        "id":"5",
+        "titulo": "Quienes Somos?",
+        "texto":"",
+        "subs": [
+            "Es una empresa de  Tecnologías especializada en servicios IT que brinda servicios de consultoría y desarrollo.",
+            "Somos una empresa con 10 años en el mercado",
+            "Nuestros ingenieros son altamente calificados, de diferentes rubros tecnológicos  especializados en brindar soluciones de IT acorde a las necesidades de nuestros clientes con tecnología de vanguardia",
+            "Tenemos cobertura nacional",
+            "Nuestro foco de negocio son soluciones de misión crítica y alta disponibilidad que caracteriza nuestras soluciones, incrementando el valor añadido ofrecido y constituyendo, hoy por hoy, nuestra gran ventaja competitiva.",
+            "Nuestra orientación al cliente, con compromiso de calidad"
+        ]
     }
 }

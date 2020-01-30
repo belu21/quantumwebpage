@@ -13,13 +13,13 @@ class NavBar extends React.Component {
                 <Nav className="mr-auto">
                     <Link to="/" className="nav-link">Home</Link>
 
-                      <NavDropdown  title="Nosotros" id="basic-nav-dropdown">
+                    <NavDropdown title="Nosotros" id="basic-nav-dropdown">
                         <Link to="/nosotros/quienessomos" className="nav-link text-dark bg-light">Quienes somos</Link>
                         <Link to="/nosotros/mision" className="nav-link text-dark bg-light">Mision</Link>
                         <Link to="/nosotros/vision" className="nav-link text-dark bg-light">Vision</Link>
-                      </NavDropdown>
-                    
-                
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item>Separated link</NavDropdown.Item>
+                    </NavDropdown>
                     <Link to="/servicios" className="nav-link">Servicios y Soluciones</Link>
                     <Link to="/equipamiento" className="nav-link">Equipamiento</Link>
                     <Link to="/partners" className="nav-link">Partners</Link>
