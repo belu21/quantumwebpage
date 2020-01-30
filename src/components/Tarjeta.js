@@ -13,5 +13,4 @@ class Tarjeta extends React.Component {
         </div>;
     }
 }
-
 export default Tarjeta;
