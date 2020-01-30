@@ -1,0 +1,46 @@
+{
+    "redhat":{
+        "id":"1",
+        "titulo":"RedHat",
+        "subs":{
+            "1":""
+        }
+    },
+    "hp":{
+        "id":"2",
+        "titulo":"HP",
+        "subs":{
+            "1":""
+        }
+    },
+    "suse":{
+        "id":"3",
+        "titulo":"SUSE",
+        "subs":{
+            "1":""
+        }
+    },
+    "sophos":{
+        "id":"4",
+        "titulo":"Sophos",
+        "subs":{
+            "1":""
+        }
+    },
+    "cisco":{
+        "id":"5",
+        "titulo":"CISCO",
+        "subs":{
+            "1":""
+        }
+    },
+    "dell":{
+        "id":"6",
+        "titulo":"Dell",
+        "subs":{
+            "1":""
+        }
+    }
+
+
+}
