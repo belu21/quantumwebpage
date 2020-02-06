@@ -5,7 +5,7 @@ class Tarjeta extends React.Component {
         var json = this.props.info
         if (this.props.info.subs==null) {
             console.log("mis subs por nada: "+this.props.info.subs)
-            return <div className="py-4 mw-100 w-100 container">
+            return <div className="py-7 mw-100 w-100 container">
             <div className="card text-white bg-dark mb-3" >
                 <div className="card-header bg-danger">{this.props.info.titulo}</div>
                 <div className="card-body-custom card-body">
@@ -16,7 +16,7 @@ class Tarjeta extends React.Component {
         }
         else {
             console.log("mis subs: "+this.props.info.subs)
-            return <div className="py-4 mw-100 w-100 container">
+            return <div className="py-7 mw-100 w-100 container">
             <div className="card text-white bg-dark mb-3" >
                 <div className="card-header bg-danger">{this.props.info.titulo}</div>
                 <div className="card-body-custom card-body">

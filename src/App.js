@@ -9,10 +9,13 @@ import Partners from './components/Partners';
 import Clientes from './components/Clientes';
 import Equipamiento from './components/Equipamiento'
 import CasosExito from './components/CasosExito';
+import imagen from '../src/images/img(20).jpg'
 
 function App() {
   return (
-    <div>
+    <div className='home'>
+    
+
       <Router>
         <NavBar />
         <Route path="/" exact component={Home} />
@@ -24,6 +27,7 @@ function App() {
         <Route path="/casosexito" component={CasosExito} />
         <Footer />
       </Router>
+
     </div>
   );
 }

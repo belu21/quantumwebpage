@@ -8,7 +8,8 @@ class Equipamiento extends React.Component{
         equipamiento: equipamiento
     }
     render() {
-        return <div  className="py-4 mw-100 w-100">
+        return <div  className="py-5 mw-100 w-100">
+            <br></br>
 
                    <Tarjeta info={this.state.equipamiento.infraestructura} />
                    <Tarjeta info={this.state.equipamiento.seguridad} />
