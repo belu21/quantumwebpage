@@ -2,6 +2,15 @@
   border:1px solid #000
 }
 .home{
-  background: url('../src/images/img(20).jpg') no-repeat;
+  background: url('../src/images/arch.png') no-repeat;
   background-size: cover;
+}
+.tarjeta-home{
+  text-align: center;
+  font-size: 60px;
+  font-family: Poppins-Regular;
+  color:white;
+}
+.tarjeta-subhome{
+  font-size: 20px;
 }
