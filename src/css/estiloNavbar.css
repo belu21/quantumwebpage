@@ -12,9 +12,8 @@
 }
 
 .header {
-  background: url(../images/logo100.png) no-repeat center;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 10vh;
 }
 
 .header .navbar{

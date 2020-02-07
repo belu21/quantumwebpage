@@ -19,7 +19,7 @@ class NavBar extends React.Component {
                                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <Link to="/nosotros/quienessomos" className="nav-link text-dark bg-light">
+                                <Link to="/nosotros/quienessomos" className="nav-link">
                                     quienes somos
                                 </Link>
                             </li>
