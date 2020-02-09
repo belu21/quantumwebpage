@@ -18,16 +18,6 @@ class Nosotros extends React.Component {
             <Tarjeta info={this.state.nosotros.quienessomos} />
             <Tarjeta info={this.state.nosotros.antecedentes} />
             <Tarjeta info={this.state.nosotros.mision} />
-            <Tarjeta info={this.state.nosotros.vision} />
-            <Tarjeta info={this.state.nosotros.quienessomos} />
-            <Tarjeta info={this.state.nosotros.antecedentes} />
-            <Tarjeta info={this.state.nosotros.mision} />
-            <Tarjeta info={this.state.nosotros.vision} />
-            <Tarjeta info={this.state.nosotros.quienessomos} />
-            <Tarjeta info={this.state.nosotros.antecedentes} />
-            <Tarjeta info={this.state.nosotros.mision} />
-            <Tarjeta info={this.state.nosotros.vision} />
-            <Tarjeta info={this.state.nosotros.quienessomos} />
            {/*  <SubTarjeta info={this.state.nosotros.quienessomos}></SubTarjeta> */}
 
         </div>;

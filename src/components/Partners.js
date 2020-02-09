@@ -1,7 +1,6 @@
 import React from 'react'
 import partners from '../json/partners'
-import Tarjeta from './Tarjeta'
-
+import SubTarjeta from './SubTarjeta'
 
 class Partners extends React.Component{
     state = {
@@ -11,12 +10,12 @@ class Partners extends React.Component{
         return <div  className="py-5 mw-100 w-100">
              <br></br>
 
-                   <Tarjeta info={this.state.partners.redhat} />
-                   <Tarjeta info={this.state.partners.hp} />
-                   <Tarjeta info={this.state.partners.suse} />
-                   <Tarjeta info={this.state.partners.sophos} />
-                   <Tarjeta info={this.state.partners.cisco} />
-                   <Tarjeta info={this.state.partners.dell} />
+                   <SubTarjeta info={this.state.partners.redhat} />
+                   <SubTarjeta info={this.state.partners.hp} />
+                   <SubTarjeta info={this.state.partners.suse} />
+                   <SubTarjeta info={this.state.partners.sophos} />
+                   <SubTarjeta info={this.state.partners.cisco} />
+                   <SubTarjeta info={this.state.partners.dell} />
                    
             
                    

@@ -1,8 +1,24 @@
 .navlink{
     color: black;
-
+    font-size: 16px;
+    background-size: cover;
+    font-family: 'Open Sans';
+    background-color: transparent;
+}
+.p-31{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .logo{
     height:'50%';
     width:'50%';
+}
+.header {
+  background-size: cover;
+  min-height: 10vh;
+}
+
+.header .navbar{
+    background-color: transparent !important;
 }
