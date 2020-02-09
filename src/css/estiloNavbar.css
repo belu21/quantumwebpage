@@ -20,5 +20,8 @@
 }
 
 .header .navbar{
-    background-color: transparent !important;
+    background-color: transparent;
+    transition: all 0.2s;
+    
 }
+
