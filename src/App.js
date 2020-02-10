@@ -25,7 +25,9 @@ function App() {
         <Footer />
       </Router>
     </div>
+    
   );
+
 }
 
 const Home = () => (
@@ -40,6 +42,9 @@ const Home = () => (
     </div>
   </div>
 )
+
+
+
 
 
 export default App;
