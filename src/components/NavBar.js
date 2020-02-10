@@ -3,12 +3,14 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../css/estiloNavbar.css'
 import mainlogo from '../images/logoblanco100.png';
+import secondlogo from '../images/logo100.png';
 
 class NavBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            backgroundColor: 'transparent'
+            backgroundColor: 'transparent',
+            imagen: mainlogo
         }
     }
 
@@ -25,13 +27,15 @@ class NavBar extends Component {
         // itemTranslate = Math.min(0, scrollTop/3 - 60);
         if (scrollTop > 60) {
             this.setState({
-                backgroundColor: 'white'
+                backgroundColor: 'white', 
+                imagen : secondlogo
             });
 
         }
-        else{
+        else {
             this.setState({
-                backgroundColor: 'transparent'
+                backgroundColor: 'transparent',
+                imagen : mainlogo
             });
         }
 
@@ -50,7 +54,7 @@ class NavBar extends Component {
             <header class="header">
                 <nav class="navbar navbar-expand-lg navbar-light text-ligth fixed-top" style={containerStyle}>
                     <Link to="/">
-                        <img src={mainlogo} height='48px' width='111px' alt='commitSRL'></img>
+                            <img src={this.state.imagen} id="logo_header" height='48px' width='111px' alt='commitSRL'></img>
                     </Link>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
