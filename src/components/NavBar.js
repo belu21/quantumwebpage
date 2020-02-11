@@ -78,7 +78,6 @@ class NavBar extends Component {
                                     <Link to="/servicios/negocio" className="nav-link  text-dark bg-light">
                                         Negocio
                                     </Link>
-                                    <div class="dropdown-divider"></div>
                                     <Link to="/servicios/desarrollo" className="nav-link text-dark bg-light">
                                         Desarrollo de Software
                                     </Link>
@@ -98,7 +97,6 @@ class NavBar extends Component {
                                     <Link to="/nosotros/vision" className="nav-link text-dark bg-light">
                                         Vision
                                     </Link>
-                                    <div class="dropdown-divider"></div>
                                     <Link to="/nosotros/quienes-somos" className="nav-link text-dark bg-light">
                                         Quienes Somos
                                     </Link>
@@ -114,7 +112,6 @@ class NavBar extends Component {
                                     <Link to="/clientes/empresas-financieras" className="nav-link  text-dark bg-light">
                                         Empresas Financieras
                                     </Link>
-                                    <div class="dropdown-divider"></div>
                                     <Link to="/clientes/empresas-petroleras" className="nav-link text-dark bg-light">
                                         Empresas Petroleras
                                     </Link>
@@ -123,8 +120,8 @@ class NavBar extends Component {
                             <Link to="/home/contactanos" className="nav-link">Contáctanos</Link>
                         </ul>
                         <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" />
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
                         </form>
                     </div>
                 </nav>
