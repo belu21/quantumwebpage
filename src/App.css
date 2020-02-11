@@ -14,3 +14,29 @@
 .tarjeta-subhome{
   font-size: 20px;
 }
+.cabecera{
+  padding-top: 5%;
+}
+.tarjeta-subhome > p{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+.descripcion{
+  background: url('../src/images/cup-coffee.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+.headivs{
+  background-color: white;
+  text-align: left;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-bottom: 10%;
+  padding-right: 30%;
+  color: red;
+}
+.headivs2{
+  color: blue;
+}

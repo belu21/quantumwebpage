@@ -1,10 +1,4 @@
-.navlink{
-    color: black;
-    font-size: 16px;
-    background-size: cover;
-    font-family: 'Open Sans';
-    background-color: transparent;
-}
+
 .p-31{
     position: absolute;
     left: 50%;
@@ -24,4 +18,3 @@
     transition: all 0.2s;
     
 }
-

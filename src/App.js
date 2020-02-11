@@ -32,14 +32,24 @@ function App() {
 
 const Home = () => (
   <div className="tarjeta-home">
-    <div>
-    CommIT
-    </div>
-    
-    <div className="tarjeta-subhome container px-6">
+    <div className="cabecera">
+      <div>
+        CommIT
+      </div>
+      <div className="tarjeta-subhome container px-6">
         <p>CommIT es una empresa enmarcada en el sector de las nuevas Tecnologías de la Información y Comunicación (TICs)
     ofrece servicios especializados de consultoría, integrando soluciones de alta calidad tanto en las administraciones públicas como en el sector privado.</p>
+      </div>
     </div>
+    <div class="headivs">
+      <p class="h5">ACERCA DE COMMIT</p>
+      <div class="jumbotron">
+        <h5 class="headivs2">Somos una empresa especializada en ofrecer servicios de vanguardia a los clientes</h5>
+      </div>
+
+    </div>
+    <div class="descripcion"></div>
+
   </div>
 )
 
