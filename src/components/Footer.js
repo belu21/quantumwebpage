@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
+import '../css/estiloFooter.css';
 
 class Footer extends Component {
     render() {
-        return <div><footer className="bg-dark rounded-top text-center footer" >
-            <div className="container py-2">
-                <p className="text-white my-2">&copy;CommIT SRL</p>
+        return <footer className="bg-dark rounded-top text-center footer" >
+            <div className="container py-2 ">
+                <p className="text-white my-2">&copy;CommIT SRL 2020</p>
             </div>
         </footer>
-        </div>
     }
 }
 export default Footer;

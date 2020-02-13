@@ -70,20 +70,6 @@ class NavBar extends Component {
                                 </li>
                             </Link>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="/servicios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
-                                <div class="dropdown-menu px-1" aria-labelledby="navbarDropdown">
-                                    <Link to="/servicios/cloud-computing" className="nav-link text-dark bg-light">
-                                        Cloud Computing
-                                    </Link>
-                                    <Link to="/servicios/negocio" className="nav-link  text-dark bg-light">
-                                        Negocio
-                                    </Link>
-                                    <Link to="/servicios/desarrollo" className="nav-link text-dark bg-light">
-                                        Desarrollo de Software
-                                    </Link>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="/nosotros" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Nosotros
                                 </a>
@@ -102,6 +88,21 @@ class NavBar extends Component {
                                     </Link>
                                 </div>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="/servicios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+                                <div class="dropdown-menu px-1" aria-labelledby="navbarDropdown">
+                                    <Link to="/servicios/cloud-computing" className="nav-link text-dark bg-light">
+                                        Cloud Computing
+                                    </Link>
+                                    <Link to="/servicios/negocio" className="nav-link  text-dark bg-light">
+                                        Negocio
+                                    </Link>
+                                    <Link to="/servicios/desarrollo" className="nav-link text-dark bg-light">
+                                        Desarrollo de Software
+                                    </Link>
+                                </div>
+                            </li>
+                           
                             <Link to="/partners" className="nav-link">Partners</Link>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="/servicios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clientes</a>
@@ -117,7 +118,7 @@ class NavBar extends Component {
                                     </Link>
                                 </div>
                             </li>
-                            <Link to="/home/contactanos" className="nav-link">Contáctanos</Link>
+                            <Link to="/contactanos" className="nav-link">Contáctanos</Link>
                         </ul>
                         <form class="form-inline my-2 my-lg-0">
                             <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" />

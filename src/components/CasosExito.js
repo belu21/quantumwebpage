@@ -1,5 +1,6 @@
 import React from 'react'
 import casosexito from '../json/casosexito'
+import '../css/estiloCasosExito.css'
 import Tarjeta from './Tarjeta'
 
 class CasosExito extends React.Component{
@@ -7,12 +8,18 @@ class CasosExito extends React.Component{
         casosexito: casosexito
     }
     render() {
-        return <div  className="py-5 mw-100 w-100">
+        return <div>
+            <div className="head">
+                CASOS DE EXITO
+            </div>
+            <div className="body">
+
                 <br></br>
 
                    <Tarjeta info={this.state.casosexito.virtualizacion} />
           
-                </div>;
+            </div>;
+        </div>
     }
 }
 

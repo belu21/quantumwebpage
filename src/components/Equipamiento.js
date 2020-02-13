@@ -1,5 +1,6 @@
 import React from 'react'
 import equipamiento from '../json/equipamiento'
+import '../css/estiloEquipamiento.css'
 import Tarjeta from './Tarjeta'
 
 
@@ -8,15 +9,18 @@ class Equipamiento extends React.Component{
         equipamiento: equipamiento
     }
     render() {
-        return <div  className="py-5 mw-100 w-100">
+        return <div>
+            <div className="head">
+                EQUIPAMIENTO
+            </div>
+            <div className="body">
+
             <br></br>
 
                    <Tarjeta info={this.state.equipamiento.infraestructura} />
                    <Tarjeta info={this.state.equipamiento.seguridad} />
-            
-                   
-          
-                </div>;
+            </div>;
+        </div>
     }
 }
 

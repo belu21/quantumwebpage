@@ -1,5 +1,6 @@
 import React from 'react'
 import contactanos from '../json/contactanos'
+import '../css/estiloContactanos.css'
 import Tarjeta from './Tarjeta'
 
 
@@ -9,14 +10,16 @@ class Contactanos extends React.Component{
         contactanos: contactanos
     }
     render() {
-        return <div  className="py-5 mw-100 w-100">
+        return <div>
+            <div className="head">
+                CONTÁCTANOS
+            </div>
+            <div className="body">
                     <br></br>
                    <Tarjeta info={this.state.contactanos.donde} />
                    <Tarjeta info={this.state.contactanos.contacto} />
-            
-                   
-          
-                </div>;
+            </div>;
+        </div>
     }
 }
 
