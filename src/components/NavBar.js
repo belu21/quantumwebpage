@@ -10,7 +10,8 @@ class NavBar extends Component {
         super(props);
         this.state = {
             backgroundColor: 'transparent',
-            imagen: mainlogo
+            imagen: mainlogo,
+            colorbtn:'btn btn-danger my-2 my-sm-0 '
         }
     }
 
@@ -28,7 +29,9 @@ class NavBar extends Component {
         if (scrollTop > 60) {
             this.setState({
                 backgroundColor: 'white', 
-                imagen : secondlogo
+                imagen : secondlogo,
+                colorbtn:'btn btn-outline-danger my-2 my-sm-0 '
+
             });
            
 
@@ -36,7 +39,8 @@ class NavBar extends Component {
         else {
             this.setState({
                 backgroundColor: 'transparent',
-                imagen : mainlogo
+                imagen : mainlogo,
+                colorbtn:'btn btn-danger my-2 my-sm-0 '
             });
        
         }
@@ -122,7 +126,7 @@ class NavBar extends Component {
                         </ul>
                         <form class="form-inline my-2 my-lg-0">
                             <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" />
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                            <button class={this.state.colorbtn} type="submit">Buscar</button>
                         </form>
                     </div>
                 </nav>
