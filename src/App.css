@@ -3,6 +3,8 @@
 }
 .home{
   background: url('../src/images/arch.png') no-repeat center center fixed;
+
+ 
   background-size: 100% 100%;
 }
 .tarjeta-home{
@@ -53,10 +55,12 @@
   width: 100%;
   height: 400px;
 }
-.ft-tarjeta{
+.footer-tarjeta{
   background: url('../src/images/cup-coffee.jpg');
   background-size: cover;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .headivs{
   background-color: white;
