@@ -58,26 +58,26 @@ class NavBar extends Component {
         const { containerStyle } = styles;
 
         return (<div>
-            <header class="header">
-                <nav class="navbar navbar-expand-lg navbar-light text-ligth fixed-top" style={containerStyle}>
+            <header className="header">
+                <nav className="navbar navbar-expand-lg navbar-light text-ligth fixed-top" style={containerStyle}>
                     <Link to="/">
                             <img src={this.state.imagen} id="logo_header" height='48px' width='111px' alt='commitSRL'></img>
                     </Link>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav m-auto">
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav m-auto">
                             <Link to="/" className="nav-link">
-                                <li class="nav-item active">
+                                <li className="nav-item active">
                                     Home
                                 </li>
                             </Link>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="/nosotros" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="/nosotros" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Nosotros
                                 </a>
-                                <div class="dropdown-menu px-1" aria-labelledby="navbarDropdown">
+                                <div className="dropdown-menu px-1" aria-labelledby="navbarDropdown">
                                     <Link to="/nosotros/valores" className="nav-link text-dark bg-light">
                                         Valores
                                     </Link>
@@ -92,9 +92,9 @@ class NavBar extends Component {
                                     </Link>
                                 </div>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="/servicios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
-                                <div class="dropdown-menu px-1" aria-labelledby="navbarDropdown">
+                            <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="/servicios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+                                <div className="dropdown-menu px-1" aria-labelledby="navbarDropdown">
                                     <Link to="/servicios/cloud-computing" className="nav-link text-dark bg-light">
                                         Cloud Computing
                                     </Link>
@@ -108,9 +108,9 @@ class NavBar extends Component {
                             </li>
                            
                             <Link to="/partners" className="nav-link">Partners</Link>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="/servicios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clientes</a>
-                                <div class="dropdown-menu px-1" aria-labelledby="navbarDropdown">
+                            <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="/servicios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clientes</a>
+                                <div className="dropdown-menu px-1" aria-labelledby="navbarDropdown">
                                     <Link to="/clientes/empresas-telecomunicaciones" className="nav-link text-dark bg-light">
                                         Empresas y Telecomunicaciones
                                     </Link>
@@ -124,9 +124,9 @@ class NavBar extends Component {
                             </li>
                             <Link to="/contactanos" className="nav-link">Contáctanos</Link>
                         </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" />
-                            <button class={this.state.colorbtn} type="submit">Buscar</button>
+                        <form className="form-inline my-2 my-lg-0">
+                            <input className="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" />
+                            <button className={this.state.colorbtn} type="submit">Buscar</button>
                         </form>
                     </div>
                 </nav>
