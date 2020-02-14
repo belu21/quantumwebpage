@@ -58,10 +58,10 @@ const Home = () => (<div>
 
             </div>
         </div>
-        <div class="headivs">
-            <p class="h5">ACERCA DE COMMIT</p>
-            <div class="jumbotron">
-                <h5 class="headivs2">Somos una empresa especializada en ofrecer servicios de vanguardia a los
+        <div className="headivs">
+            <p className="h5">ACERCA DE COMMIT</p>
+            <div className="jumbotron">
+                <h5 className="headivs2">Somos una empresa especializada en ofrecer servicios de vanguardia a los
                     clientes</h5>
             </div>
 
