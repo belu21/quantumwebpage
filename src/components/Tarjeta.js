@@ -32,15 +32,12 @@ class Tarjeta extends React.Component {
         //     </div>;
         // }
         // ;
-        return <div className="containers">
-                    <div className="card">
-                        {/*<h4>hola</h4>*/}
-                        <div className="title">{this.props.info.titulo}</div>
-                            <p>{this.props.info.texto}</p>
-                            <a href="#">Leer más</a>
-                    </div>
-            </div>
-
+        return <div className="card tarjetita">
+            {/*<h4>hola</h4>*/}
+            <div className="title">{this.props.info.titulo}</div>
+            <p>{this.props.info.texto}</p>
+            <a href="#">Leer más</a>
+        </div>
     }
 }
 

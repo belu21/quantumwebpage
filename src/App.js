@@ -38,39 +38,38 @@ function App() {
 }
 
 const Home = () => (<div>
-    <div className="tarjeta-home">
-        <div className="cabecera">
-            <div className="titulo-home">
-                CommIT
+        <div className="tarjeta-home">
+            <div className="cabecera">
+                <div className="titulo-home">
+                    CommIT
+                </div>
+                <div className="tarjeta-subhome container px-6">
+                    <p>Una empresa enmarcada en el sector de las nuevas Tecnologías de la Información y Comunicación
+                        (TICs)
+                        ofrece servicios especializados de consultoría, integrando soluciones de alta calidad tanto en
+                        las
+                        administraciones públicas como en el sector privado.</p>
+                </div>
+                <div className="tarjeta-subhome1 container px-6">
+                    <p>
+                        La empresa CommIT tiene el nombre emblemático que representa la Tecnología en todo ámbito.
+                        Actualmente contamos con un grupo de programadores y
+                        expertos que la conforman y que ya llevan muchos años trabajando en dar soluciones IT a clientes
+                        particulares y empresas.
+                    </p>
+                </div>
             </div>
-            <div className="tarjeta-subhome container px-6">
-                <p>Una empresa enmarcada en el sector de las nuevas Tecnologías de la Información y Comunicación (TICs)
-                    ofrece servicios especializados de consultoría, integrando soluciones de alta calidad tanto en las
-                    administraciones públicas como en el sector privado.</p>
-            </div>
-            <div className="tarjeta-subhome1 container px-6">
-                <p>
-                    La empresa CommIT tiene el nombre emblemático que representa la Tecnología en todo ámbito.
-                    Actualmente contamos con un grupo de programadores y
-                    expertos que la conforman y que ya llevan muchos años trabajando en dar soluciones IT a clientes
-                    particulares y empresas.
-                </p>
-
+            <div class="headivs">
+                <p class="h5">ACERCA DE COMMIT</p>
+                <div class="jumbotron">
+                    <h5 class="headivs2">Somos una empresa especializada en ofrecer servicios de vanguardia a los
+                        clientes</h5>
+                </div>
             </div>
         </div>
-        <div class="headivs">
-            <p class="h5">ACERCA DE COMMIT</p>
-            <div class="jumbotron">
-                <h5 class="headivs2">Somos una empresa especializada en ofrecer servicios de vanguardia a los
-                    clientes</h5>
-            </div>
-
-        </div>
-
-
-    </div>
-        <div className="footer-tarjeta">
+        <div className="ft-tarjeta">
             <Tarjeta info={nosotros.mision}></Tarjeta>
+            <Tarjeta info={servicio.desarrolloSoftware}></Tarjeta>
             <Tarjeta info={servicio.desarrolloSoftware}></Tarjeta>
         </div>
     </div>

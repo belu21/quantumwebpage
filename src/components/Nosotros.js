@@ -18,7 +18,7 @@ class Nosotros extends React.Component {
             </div>
             <div className="body">
 
-           <br></br>
+
             <Tarjeta info={this.state.nosotros.antecedentes} />
             <Tarjeta info={this.state.nosotros.mision} />
             <Tarjeta info={this.state.nosotros.vision} />
