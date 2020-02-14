@@ -9,6 +9,7 @@ import Partners from './components/Partners';
 import Clientes from './components/Clientes';
 import Equipamiento from './components/Equipamiento'
 import CasosExito from './components/CasosExito';
+import Contactanos from './components/Contactanos';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/partners" component={Partners} />
         <Route path="/clientes" component={Clientes} />
         <Route path="/casosexito" component={CasosExito} />
+        <Route path="/contactanos" component={Contactanos}/>
         <Footer />
       </Router>
     </div>
@@ -33,7 +35,7 @@ function App() {
 const Home = () => (
   <div className="tarjeta-home">
     <div className="cabecera">
-      <div className="titulo-home">
+      <div className="animated bounce infinite titulo-home">
         CommIT
       </div>
       <div className="tarjeta-subhome container px-6">
