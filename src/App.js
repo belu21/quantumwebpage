@@ -72,6 +72,7 @@ const Home = () => (<div>
         <div className="footer-tarjeta">
             <Tarjeta info={nosotros.mision}></Tarjeta>
             <Tarjeta info={servicio.desarrolloSoftware}></Tarjeta>
+            
         </div>
     </div>
 )

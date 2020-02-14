@@ -58,6 +58,9 @@
 .footer-tarjeta{
   background: url('../src/images/cup-coffee.jpg');
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .headivs{
   background-color: white;
