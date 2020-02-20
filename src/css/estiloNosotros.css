@@ -21,10 +21,14 @@
 
 .body{
     background-color: white;
-    max-width:100%;
-    display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
-  
-
-}
+    margin: 0 -5px;
+    
+  }
+  .body:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
