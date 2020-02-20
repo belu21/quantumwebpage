@@ -1,0 +1,19 @@
+.titulo {
+    font-family: Bank-Gothic-Regular;
+    padding-left: 5%;
+    font-size: 20px;
+}
+.titulo label{
+    font-size: 30px;
+    color: white;
+    font-family: Poppins-SemiBold;
+    text-shadow:  2px 2px 10px #666;
+}
+#wrapper {
+    display: flex;    /* Magic begins */
+    flex-wrap: wrap;  /* Allow multiple lines */
+}
+#wrapper > div {
+    flex: 30% 69%;          /* Distribute space equally among the flex items */
+    min-width: 300px; /* But force them to be at least300px wide */
+}
