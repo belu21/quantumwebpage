@@ -10,6 +10,7 @@ class Subtitulo extends Component {
     backgroundStyle = {
         backgroundImage: `url(${this.props.background})`,
         backgroundSize: 'cover',
+        padding: '2%'
     }
 
     leftStyle ={
@@ -22,9 +23,7 @@ class Subtitulo extends Component {
     rightStyle={
         width: '69%',
         float: 'right',
-        marginTop: '10px',
-        marginBottom: '10px',
-        marginRight: '1%'
+        padding: '5%'
     }
     isLeft(){
         if (this.props.lado === "left"){

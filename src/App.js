@@ -71,8 +71,8 @@ const Home = () => {
                 </div>
             </div>
             <div className="footer-tarjeta">
-                <Tarjeta info={nosotros.mision}/>
-                <Tarjeta info={nosotros.vision}/>
+                <Tarjeta info={nosotros.mision} to={'/nosotros/mision'}/>
+                <Tarjeta info={nosotros.vision} to={'/nosotros/vision'}/>
             </div>
         </div>
     );

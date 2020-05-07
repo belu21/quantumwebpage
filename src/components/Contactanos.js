@@ -14,11 +14,11 @@ class Contactanos extends React.Component{
             <div className="head">
                 CONTÁCTANOS
             </div>
-            <div className="body">
-                    <br></br>
-                   <Tarjeta info={this.state.contactanos.donde} />
-                   <Tarjeta info={this.state.contactanos.contacto} />
-            </div>;
+            {/*<div className="body">*/}
+            {/*        <br></br>*/}
+            {/*       <Tarjeta info={this.state.contactanos.donde} />*/}
+            {/*       <Tarjeta info={this.state.contactanos.contacto} />*/}
+            {/*</div>;*/}
         </div>
     }
 }

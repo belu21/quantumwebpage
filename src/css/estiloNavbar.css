@@ -6,11 +6,11 @@
 .logo{
     height:'50%';
     width:'50%';
-    
 }
 .header {
   background-size: cover;
   min-height: 10vh;
+    font-size: 24px;
 }
 
 .header .navbar{

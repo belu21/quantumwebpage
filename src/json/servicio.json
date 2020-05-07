@@ -23,8 +23,12 @@
     },
     "desarrolloSoftware":{
         "id":"3",
-        "titulo":"Desarrollo de Software",
-        "Subs":[]
+        "titulo":"Soluciones de Software a Medida",
+        "Subs":[
+            "DEVOPS",
+            "Desarrollo de Apis",
+            "Desarrollo Mobile"
+        ]
     },
     "gestionServicios":{
         "id":"2",
@@ -32,6 +36,34 @@
         "subs":[
             "ITIL",
             "OTRS"
+        ]
+    },
+    "soporteTecnico": {
+        "id": "3",
+        "titulo": "Soporte Tecnico",
+        "subs": [
+            "Base de Datos, Enterprise DB, Postgres, Informix, Memsql, Vertica",
+            "PMI Dirección de Proyectos PMBOK",
+            "Management 3.0",
+            "ITIL 4.0",
+            "Agile (Scrum, Kanban, XP,etc)",
+            "Industria 4.0Linux básico, medio y Avanzado",
+            "Base de Datos, Enterprise DB, Postgres, Informix, Memsql, Vertica",
+            "PMI Dirección de Proyectos PMBOK",
+            "Management 3.0",
+            "ITIL 4.0",
+            "Agile (Scrum, Kanban, XP,etc)",
+            "Industria 4.0"
+        ]
+    },
+    "servicioEducacion": {
+        "id": "4",
+        "titulo": "Servicios de Educacion",
+        "subs": [
+            "Infraestructura de IT (hardware y software)",
+            "7x24",
+            "Bolsa de horas",
+            "Con niveles de escalamiento al fabricante"
         ]
     }
    
