@@ -1,8 +1,6 @@
 import React from 'react'
 import servicio from '../json/servicio'
 import '../css/estiloServicios.css'
-import img2 from "../images/people.jpg";
-import Subtitulo from "./Subtitulo";
 import continuidad from "../images/continuidad.png"
 import cloud from "../images/cloudcomp.png"
 
@@ -16,11 +14,11 @@ class Servicios extends React.Component {
             <div className="head">
                 SERVICIOS
                 <div className="service">
-                    <div className="">{this.state.servicio.cloudComputing.titulo}<img src={cloud} height={100}></img></div>
+                    <div className="">{this.state.servicio.cloudComputing.titulo}<img src={cloud} height={100} alt={"not_found"}></img></div>
                     <div className="jumbotron servdesc">{this.state.servicio.cloudComputing.subs}</div>
                 </div>
                 <div className="service">
-                    <div className="">{this.state.servicio.continuidad.titulo}<img src={continuidad} height={100}></img></div>
+                    <div className="">{this.state.servicio.continuidad.titulo}<img src={continuidad} height={100} alt={"not_found"}></img></div>
                     {/*<div className="jumbotron servdesc">*/}
                     {/*    Alta Disponibilidad*/}
                     {/*</div>*/}
@@ -35,7 +33,7 @@ class Servicios extends React.Component {
                     </div>
                 </div>
                 <div className="service">
-                    <div className="">{this.state.servicio.soporteTecnico.titulo}<img src={continuidad} height={100}></img></div>
+                    <div className="">{this.state.servicio.soporteTecnico.titulo}<img src={continuidad} height={100} alt={"not_found"}></img></div>
                     {/*<div className="jumbotron servdesc">*/}
                     {/*    Alta Disponibilidad*/}
                     {/*</div>*/}
@@ -64,7 +62,7 @@ class Servicios extends React.Component {
                     </div>
                 </div>
                 <div className="service">
-                    <div className="">{this.state.servicio.desarrolloSoftware.titulo}<img src={continuidad} height={100}></img></div>
+                    <div className="">{this.state.servicio.desarrolloSoftware.titulo}<img src={continuidad} height={100} alt={"not_found"}></img></div>
                     <div className="circleBase circle servdesc">
                         <p>DEVOPS</p>
                     </div>
@@ -76,7 +74,7 @@ class Servicios extends React.Component {
                     </div>
                 </div>
                 <div className="service">
-                    <div className="">{this.state.servicio.gestionServicios.titulo}<img src={continuidad} height={100}></img></div>
+                    <div className="">{this.state.servicio.gestionServicios.titulo}<img src={continuidad} height={100} alt={"not_found"}></img></div>
                     <div className="circleBase circle servdesc">
                         <p>ITIL</p>
                     </div>
@@ -85,7 +83,7 @@ class Servicios extends React.Component {
                     </div>
                 </div>
                 <div className="service">
-                    <div className="">{this.state.servicio.servicioEducacion.titulo}<img src={continuidad} height={100}></img></div>
+                    <div className="">{this.state.servicio.servicioEducacion.titulo}<img src={continuidad} height={100} alt={"not_found"}></img></div>
                     <div className="circleBase circle servdesc">
                         <p>Infraestructura de IT (hardware y software)</p>
                     </div>

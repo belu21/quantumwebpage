@@ -2,8 +2,8 @@
   border:1px solid #000
 }
 .home{
-  background: url('../src/images/arch.png') no-repeat center center fixed;
-  background-size: 100% 100%;
+  background: url('../src/images/arch.png') no-repeat center fixed;
+  background-size: cover;
 }
 .tarjeta-home{
   text-align: center;

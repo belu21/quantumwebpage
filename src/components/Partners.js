@@ -1,7 +1,6 @@
 import React from 'react'
 import partners from '../json/partners'
 import '../css/estiloPartners.css'
-import SubTarjeta from './SubTarjeta'
 import continuidad from "../images/continuidad.png";
 
 class Partners extends React.Component{
@@ -20,7 +19,7 @@ class Partners extends React.Component{
                    {/*<SubTarjeta info={this.state.partners.cisco} />*/}
                    {/*<SubTarjeta info={this.state.partners.dell} />          */}
                 <div className="service">
-                    <div className="">PARTNERS <img src={continuidad} height={100}></img></div>
+                    <div className="">PARTNERS <img src={continuidad} height={100} alt={"not_found"}></img></div>
                     {/*<div className="jumbotron servdesc">*/}
                     {/*    Alta Disponibilidad*/}
                     {/*</div>*/}

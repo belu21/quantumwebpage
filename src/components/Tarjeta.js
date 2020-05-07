@@ -3,6 +3,7 @@ import '../css/estiloTarjeta.css'
 
 class Tarjeta extends React.Component {
 
+
     render() {
         return <div className="tarjetita">
             <div className="card">

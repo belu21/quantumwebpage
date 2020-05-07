@@ -1,7 +1,6 @@
 import React from 'react'
 import clientes from '../json/clientes'
 import '../css/estiloClientes.css'
-import Tarjeta from './Tarjeta'
 import continuidad from "../images/continuidad.png";
 
 class Clientes extends React.Component{
@@ -20,7 +19,7 @@ class Clientes extends React.Component{
             {/*       <Tarjeta info={this.state.clientes.petroleras} />*/}
             {/*</div>;*/}
             <div className="service">
-                <div className="">{this.state.clientes.telecomunicaciones.titulo}<img src={continuidad} height={100}></img></div>
+                <div className="">{this.state.clientes.telecomunicaciones.titulo}<img src={continuidad} height={100} alt={"not_found"}></img></div>
                 {/*<div className="jumbotron servdesc">*/}
                 {/*    Alta Disponibilidad*/}
                 {/*</div>*/}
@@ -35,7 +34,7 @@ class Clientes extends React.Component{
                 </div>
             </div>
             <div className="service">
-                <div className="">{this.state.clientes.financieras.titulo}<img src={continuidad} height={100}></img></div>
+                <div className="">{this.state.clientes.financieras.titulo}<img src={continuidad} height={100} alt={"not_found"}></img></div>
                 {/*<div className="jumbotron servdesc">*/}
                 {/*    Alta Disponibilidad*/}
                 {/*</div>*/}
@@ -61,7 +60,7 @@ class Clientes extends React.Component{
                 </div>
             </div>
             <div className="service">
-                <div className="">{this.state.clientes.petroleras.titulo}<img src={continuidad} height={100}></img></div>
+                <div className="">{this.state.clientes.petroleras.titulo}<img src={continuidad} height={100} alt={"not_found"}></img></div>
                 {/*<div className="jumbotron servdesc">*/}
                 {/*    Alta Disponibilidad*/}
                 {/*</div>*/}
