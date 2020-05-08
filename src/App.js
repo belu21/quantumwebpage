@@ -10,12 +10,14 @@ import Clientes from './components/Clientes';
 import Equipamiento from './components/Equipamiento'
 import CasosExito from './components/CasosExito';
 import Contactanos from './components/Contactanos'
-import Tarjeta from "./components/Tarjeta";
+
+import Card from "./components/Card"
+import img from "../src/images/barco.jpg"
+import img2 from "../src/images/niebla.jpg"
 
 import nosotros from './json/nosotros'
 
 function App() {
-
     return (
         <div className='home'>
             <Router>
@@ -31,6 +33,7 @@ function App() {
                 <Footer/>
             </Router>
         </div>
+
 
     );
 
@@ -71,9 +74,12 @@ const Home = () => {
                 </div>
             </div>
             <div className="footer-tarjeta">
-                <Tarjeta info={nosotros.mision}/>
-                <Tarjeta info={nosotros.vision}/>
+                <Card texto={nosotros.mision.texto} titulo={nosotros.mision.titulo} image={img} to={"/nosotros/mision"}></Card>
+                <Card texto={nosotros.vision.texto} titulo={nosotros.vision.titulo} image={img2} to={"/nosotros/vision"}></Card>
+                {/*<Tarjeta info={nosotros.mision} to={'/nosotros/mision'}/>*/}
+                {/*<Tarjeta info={nosotros.vision} to={'/nosotros/vision'}/>*/}
             </div>
+
         </div>
     );
 }
