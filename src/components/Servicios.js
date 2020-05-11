@@ -33,7 +33,7 @@ class Servicios extends React.Component {
                     </div>
                 </div>
                 <div className="service">
-                    <div className="">{this.state.servicio.soporteTecnico.titulo}<img src={continuidad} height={100} alt={"not_found"}></img></div>
+                    <div className="">{this.state.servicio.servicioEducacion.titulo}<img src={continuidad} height={100} alt={"not_found"}></img></div>
                     {/*<div className="jumbotron servdesc">*/}
                     {/*    Alta Disponibilidad*/}
                     {/*</div>*/}
@@ -83,7 +83,7 @@ class Servicios extends React.Component {
                     </div>
                 </div>
                 <div className="service">
-                    <div className="">{this.state.servicio.servicioEducacion.titulo}<img src={continuidad} height={100} alt={"not_found"}></img></div>
+                    <div className="">{this.state.servicio.soporteTecnico.titulo}<img src={continuidad} height={100} alt={"not_found"}></img></div>
                     <div className="circleBase circle servdesc">
                         <p>Infraestructura de IT (hardware y software)</p>
                     </div>
