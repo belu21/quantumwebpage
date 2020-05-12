@@ -4,13 +4,20 @@ import { Link } from 'react-router-dom';
 import '../css/estiloNavbar.css'
 import mainlogo from '../images/logoblanco100.png';
 import secondlogo from '../images/logo100.png';
+import Icon from '@material-ui/core/Icon'
+import FacebookIcon from '@material-ui/icons/Facebook';
+import SvgIcon from '@material-ui/core/SvgIcon';
+import {Button} from "@material-ui/core";
+import IconButton from '@material-ui/core/IconButton';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 class NavBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            backgroundColor: 'transparent',
-            imagen: mainlogo,
+            backgroundColor: 'white',
+            // imagen: mainlogo,
+            imagen: secondlogo,
             colorbtn:'btn btn-danger my-2 my-sm-0 '
         }
     }
@@ -31,16 +38,20 @@ class NavBar extends Component {
                 backgroundColor: 'white', 
                 imagen : secondlogo,
                 colorbtn:'btn btn-outline-danger my-2 my-sm-0 '
-
             });
            
 
         }
         else {
+            // this.setState({
+            //     backgroundColor: 'transparent',
+            //     imagen : mainlogo,
+            //     colorbtn:'btn btn-danger my-2 my-sm-0 '
+            // });
             this.setState({
-                backgroundColor: 'transparent',
-                imagen : mainlogo,
-                colorbtn:'btn btn-danger my-2 my-sm-0 '
+                backgroundColor: 'white',
+                imagen : secondlogo,
+                colorbtn:'btn btn-outline-danger my-2 my-sm-0 '
             });
        
         }
@@ -59,7 +70,7 @@ class NavBar extends Component {
 
         return (<div>
             <header className="header">
-                <nav className="navbar navbar-expand-lg navbar-light text-ligth fixed-top" style={containerStyle}>
+                <nav className="navbar navbar-expand-lg navbar-light text-light fixed-top" style={containerStyle}>
                     <Link to="/">
                             <img src={this.state.imagen} id="logo_header" height='48px' width='111px' alt='commitSRL'></img>
                     </Link>
@@ -125,6 +136,17 @@ class NavBar extends Component {
                             <Link to="/contactanos" className="nav-link">Contáctanos</Link>
                         </ul>
                         <form className="form-inline my-2 my-lg-0">
+                            {/*<Button href={'https://www.linkedin.com/in/ronald-alcides-guarachi-enriquez-a610491a8'} >*/}
+                            {/*    <FacebookIcon/>*/}
+                            {/*</Button>*/}
+
+                            <IconButton color='default' aria-label="LikedIn" component="span" onClick={() => window.open('https://www.linkedin.com/in/ronald-alcides-guarachi-enriquez-a610491a8')}>
+                                <LinkedInIcon />
+                            </IconButton>
+
+                            <IconButton color='primary' aria-label="Facebook" component="span" onClick={() => window.open('https://www.facebook.com/ronald.guarachi.5')}>
+                                <FacebookIcon />
+                            </IconButton>
                             <input className="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" />
                             <button className={this.state.colorbtn} type="submit">Buscar</button>
                         </form>
@@ -132,8 +154,5 @@ class NavBar extends Component {
                 </nav>
             </header></div>);
     }
-
-
-
 }
 export default NavBar;
