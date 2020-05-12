@@ -40,19 +40,22 @@ class Clientes extends React.Component{
                 {/*</div>*/}
                 <div className="pads">
                 <div className="circleBase circle servdesc">
-                    <p>Banco Economico EDV</p>
+                    <p>Banco Económico</p>
                 </div>
+                    <div className="circleBase circle servdesc">
+                        <p>EDV (Entidad de Depósito de Valores)</p>
+                    </div>
                 <div className="circleBase circle servdesc">
                     <p>Banco Central de Bolivia</p>
                 </div>
                 <div className="circleBase circle servdesc">
-                    <p>Jesús Nazareno</p>
+                    <p>Cooperativa Jesús Nazareno</p>
                 </div>
                 <div className="circleBase circle servdesc">
-                    <p>San Martin de Porres</p>
+                    <p>Cooperativa San Martin de Porres</p>
                 </div>
                 <div className="circleBase circle servdesc">
-                    <p>Fátima</p>
+                    <p>Cooperativa Fátima</p>
                 </div>
                 <div className="circleBase circle servdesc">
                     <p>Brinks Bolivia</p>
