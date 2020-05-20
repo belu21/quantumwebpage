@@ -17,7 +17,8 @@ class NavBar extends Component {
         }
     }
     toggleHover() {
-        this.setState({hover: !this.state.hover})
+        //this.setState({hover: !this.state.hover})
+        this.state.hover=!this.state.hover
     }
 
     componentDidMount = () => {
@@ -70,7 +71,7 @@ class NavBar extends Component {
           if (this.state.hover) {
            linkStyle = {color: '#ed1212',cursor: 'pointer', borderbottomcolor: 'red', borderstyle: 'solid'}
           } else {
-           linkStyle = {color: 'transparent',borderbottomcolor: 'red', borderstyle: 'solid'}
+           linkStyle = {borderbottomcolor: 'red', borderstyle: 'solid'}
           }
 
         return (<div>
@@ -86,7 +87,7 @@ class NavBar extends Component {
                         <ul className="navbar-nav m-auto">
                           
                                 <li className="nav-item active" >
-                                <Link to="/" className="nav-link" style={linkStyle} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
+                                <Link to="/" className="nav-link" style={linkStyle} onMouseEnter={() => this.toggleHover()} onMouseLeave={() => this.toggleHover()}>
                                     Home
                                     </Link>
                                 </li>
