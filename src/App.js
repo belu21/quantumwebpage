@@ -43,16 +43,21 @@ const Home = () => {
     return (<div>
             <div className="tarjeta-home">
                 <div className="cabecera">
+                    
                     <div className="titulo-home">
                         CommIT
                     </div>
-                    <div className="tarjeta-subhome container px-6">
-                        <p>Una empresa enmarcada en el sector de las nuevas Tecnologías de la Información y Comunicación
-                            (TICs)
-                            ofrece servicios especializados de consultoría, integrando soluciones de alta calidad tanto
-                            en las
-                            administraciones públicas como en el sector privado.</p>
+                    <div className="tarjeta-subhome ">
+                        Tecnología de <br/>
+                            Vanguardia
+                        
                     </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
                     <div className="tarjeta-subhome1 container px-6">
                         <p>
                             La empresa CommIT tiene el nombre emblemático que representa la Tecnología en todo ámbito.

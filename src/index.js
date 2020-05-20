@@ -23,5 +23,11 @@ import './fonts/Poppins-LightItalic.ttf';
 import './fonts/Poppins-Medium.ttf';
 import './fonts/Poppins-MediumItalic.ttf';
 import './fonts/Bank-Gothic-Regular.ttf';
+import './fonts/Gilroy-Bold.ttf';
+import './fonts/Gilroy-Heavy.ttf';
+import './fonts/Gilroy-Light.ttf';
+import './fonts/Gilroy-Medium.ttf';
+import './fonts/Gilroy-Regular.ttf';
+
 
 ReactDOM.render(<App />, document.getElementById('root'));

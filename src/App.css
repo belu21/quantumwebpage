@@ -2,34 +2,32 @@
   border:1px solid #000
 }
 .home{
-  background: url('../src/images/arch.png') no-repeat center fixed;
+  background: url('../src/images/Fondo.png') no-repeat center fixed;
   background-size: cover;
 }
-.tarjeta-home{
-  text-align: center;
-  font-size: 100px;
-  color:white;
-
+.cabecera{
+  align-content: left;
+  padding-top: 5%;
 }
 .titulo-home{
-  font-family: Bank-Gothic-Regular;
-  text-shadow:  2px 2px 10px #666;
+  padding-top: 80px;
+  font-family: Gilroy-Heavy;
+  text-align: right;
+  padding-right: 8%;
+  color: #464856;
+  font-size: 100px;
+ 
 }
 
 .tarjeta-subhome{
-  font-family: Poppins-Regular;
-  font-size: 19px;
+  font-family: Gilroy-Light;
+  color: #464856;
+  padding-right: 8%;
+  text-align: right;
+  font-size: 80px;
 }
-.cabecera{
-  padding-top: 5%;
-}
-.tarjeta-subhome > p{
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 9%;
-  font-family: Poppins-Regular;
-  font-size: 30px;
-}
+
+
 .tarjeta-subhome1{
   padding-bottom: 5%;
   text-align: justify;

@@ -1,4 +1,7 @@
-
+.nosotros{
+    background: url('../images/Fondo_Rojo.png') no-repeat center fixed;
+    background-size: cover;
+}
 .card-text{
     font-family: Poppins-Regular;
     max-width:100%;

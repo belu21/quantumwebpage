@@ -12,7 +12,7 @@ class Nosotros extends React.Component {
     }
 
     render() {
-        return <div>
+        return <div className="nosotros">
             <div className="head">
                 NOSOTROS
             </div>
