@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import { Link } from 'react-router-dom';
 import '../css/estiloNavbar.css'
-import mainlogo from '../images/logoblanco100.png';
 import secondlogo from '../images/logo100.png';
 
 class NavBar extends Component {
@@ -17,8 +16,7 @@ class NavBar extends Component {
         }
     }
     toggleHover() {
-        //this.setState({hover: !this.state.hover})
-        this.state.hover=!this.state.hover
+        this.setState({hover: !this.state.hover})
     }
 
     componentDidMount = () => {
