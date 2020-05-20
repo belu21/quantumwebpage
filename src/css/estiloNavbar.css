@@ -26,9 +26,17 @@
 }
 .nav-item {
     padding-bottom: 5px;
-    border-bottom-style: solid;    
+    border-bottom-style: solid; 
+    color: transparent;   
 }
+.nav-item:hover{
 
+    
+	
+		color: #ed1212;
+		cursor: pointer;
+	
+}
 
 
 .nav .a{

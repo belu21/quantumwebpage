@@ -12,10 +12,13 @@ class NavBar extends Component {
             backgroundColor: 'transparent',
             imagen: secondlogo,
             colorbtn:'btn btn-danger my-2 my-sm-0 ',
+            hover:false
             
         }
     }
-
+    toggleHover() {
+        this.setState({hover: !this.state.hover})
+    }
 
     componentDidMount = () => {
         window.addEventListener('scroll', this.handleScroll);
@@ -63,6 +66,12 @@ class NavBar extends Component {
             }
         };
         const { containerStyle } = styles;
+        var linkStyle;
+          if (this.state.hover) {
+           linkStyle = {color: '#ed1212',cursor: 'pointer', borderbottomcolor: 'red', borderstyle: 'solid'}
+          } else {
+           linkStyle = {color: 'transparent',borderbottomcolor: 'red', borderstyle: 'solid'}
+          }
 
         return (<div>
             <header className="header">
@@ -77,7 +86,7 @@ class NavBar extends Component {
                         <ul className="navbar-nav m-auto">
                           
                                 <li className="nav-item active" >
-                                <Link to="/" className="nav-link" >
+                                <Link to="/" className="nav-link" style={linkStyle} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
                                     Home
                                     </Link>
                                 </li>
