@@ -52,12 +52,7 @@ const Home = () => {
                             Vanguardia
                         
                     </div>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+
                     <div className="tarjeta-subhome1 container px-6">
                         <p>
                             La empresa CommIT tiene el nombre emblemático que representa la Tecnología en todo ámbito.

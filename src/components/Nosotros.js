@@ -30,7 +30,7 @@ corden a las las necesidades del cliente que y contribuyen a mejores resultados.
 Sentido de equipo: Creemos en la colaboración y confianza mutua. Entendemos que nuestro éxito global
 depende de la sinergia que construyamos en conjunto.
 
-Respeto por el individuo y por la diversidad: Para nosotros las diferencias no son obstáculos sino
+Respeto por el individuo y por la diversidad: P ara nosotros las diferencias no son obstáculos sino
 valiosas oportunidades de aprendizaje.
 
 Responsabilidad: Por el servicio que ofrecemos," background={img2} lado={"left"}></Subtitulo>
