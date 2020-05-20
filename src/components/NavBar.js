@@ -38,10 +38,7 @@ class NavBar extends Component {
                 backgroundColor: 'white', 
                 imagen : secondlogo,
                 colorbtn:'btn btn-outline-danger my-2 my-sm-0 '
-
             });
-           
-
         }
         else {
             this.setState({
@@ -49,21 +46,15 @@ class NavBar extends Component {
                 imagen : secondlogo,
                 colorbtn:'btn btn-danger my-2 my-sm-0 '
             });
-       
         }
-
     }
-   
 
 
     render() {
-
         const styles = {
             containerStyle: {
                 backgroundColor: this.state.backgroundColor,
                 bordercolor: this.state.bordercolor,
-
-                
             }
         };
         const { containerStyle } = styles;

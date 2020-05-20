@@ -10,8 +10,8 @@
 }
 .header {
   background-size: cover;
-    background-color: transparent;
-    padding-bottom: 120px;
+    min-height: 10vh;
+    background-color: white;
 }
 
 .header .navbar{
