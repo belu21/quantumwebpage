@@ -11,7 +11,7 @@
 .header {
   background-size: cover;
     min-height: 10vh;
-    background-color: white;
+    background-color: black;
 }
 
 .header .navbar{

@@ -3,13 +3,14 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../css/estiloNavbar.css'
 import secondlogo from '../images/logo100.png';
+import logoblanco from '../images/logoblanco100.png'
 
 class NavBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
             backgroundColor: 'transparent',
-            imagen: secondlogo,
+            imagen: logoblanco,
             colorbtn:'btn btn-danger my-2 my-sm-0 ',
             hover:false
             
@@ -33,7 +34,7 @@ class NavBar extends Component {
         // itemTranslate = Math.min(0, scrollTop/3 - 60);
         if (scrollTop > 60) {
             this.setState({
-                backgroundColor: 'white', 
+                backgroundColor: 'white',
                 imagen : secondlogo,
                 colorbtn:'btn btn-outline-danger my-2 my-sm-0 '
             });
@@ -41,7 +42,7 @@ class NavBar extends Component {
         else {
             this.setState({
                 backgroundColor: 'transparent',
-                imagen : secondlogo,
+                imagen : logoblanco,
                 colorbtn:'btn btn-danger my-2 my-sm-0 '
             });
         }
@@ -58,14 +59,14 @@ class NavBar extends Component {
         const { containerStyle } = styles;
         var linkStyle;
           if (this.state.hover) {
-           linkStyle = {color: '#ed1212',cursor: 'pointer', borderbottomcolor: 'red', borderstyle: 'solid'}
+           linkStyle = {color: 'white',cursor: 'pointer', borderbottomcolor: 'red', borderstyle: 'solid'}
           } else {
            linkStyle = {borderbottomcolor: 'red', borderstyle: 'solid'}
           }
 
         return (<div>
             <header className="header">
-                <nav className="navbar navbar-expand-lg navbar-light text-ligth fixed-top" style={containerStyle}>
+                <nav className="navbar navbar-expand-lg navbar-dark text-ligth fixed-top" style={containerStyle}>
                     <Link to="/">
                             <img src={this.state.imagen} className="logo" id="logo_header" height='48px' width='111px' alt='commitSRL'></img>
                     </Link>
