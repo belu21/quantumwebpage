@@ -14,7 +14,7 @@ class Nosotros extends React.Component {
     render() {
         return <div className="nosotros">
             <div className="head">
-                NOSOTROS
+                Nosotros
             </div>
             <div>
 
