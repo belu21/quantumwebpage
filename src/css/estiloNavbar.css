@@ -4,13 +4,12 @@
     transform: translateX(-50%);
 }
 .logo{
-    height:30%;
-    width:30%;
+    height:70px;
+    width:170px;
     margin-left: 150px;
 }
 .header {
   background-size: cover;
-    min-height: 10vh;
     background-color: black;
     position: fixed;
     margin-bottom: 200px;
