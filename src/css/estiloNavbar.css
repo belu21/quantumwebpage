@@ -20,6 +20,8 @@
     background-color: black;
     transition: all 0.2s;
     padding: 1%;
+    margin-bottom: 100px;
+    min-height: 100px;
 }
 .nav-link{
     margin-left: 15px;

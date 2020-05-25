@@ -3,6 +3,7 @@
     background-size: cover;
     display: flex;
     align-items: center;
+    margin-top: 80px;
 }
 .card-text{
     font-family: Gilroy-Light;

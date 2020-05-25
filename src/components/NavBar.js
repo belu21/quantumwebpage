@@ -120,9 +120,11 @@ class NavBar extends Component {
                             </li>
 
                             <li className="nav-item ">
-                            FACEBOOK, LINKEDIN
+                            <Link to="/contactanos" className="nav-link">
+                                    Contactanos
+                            </Link>
                             </li>
-                            
+
                         </ul>
                        
                     </div>
