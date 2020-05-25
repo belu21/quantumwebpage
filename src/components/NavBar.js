@@ -9,7 +9,7 @@ class NavBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            backgroundColor: 'transparent',
+            backgroundColor: 'dark',
             imagen: logoblanco,
             colorbtn:'btn btn-danger my-2 my-sm-0 ',
             hover:false
@@ -27,26 +27,7 @@ class NavBar extends Component {
     componentWillUnmount = () => {
         window.removeEventListener('scroll', this.handleScroll);
     }
-    
 
-    handleScroll = (event) => {
-        let scrollTop = window.scrollY;
-        // itemTranslate = Math.min(0, scrollTop/3 - 60);
-        if (scrollTop > 60) {
-            this.setState({
-                backgroundColor: 'white',
-                imagen : secondlogo,
-                colorbtn:'btn btn-outline-danger my-2 my-sm-0 '
-            });
-        }
-        else {
-            this.setState({
-                backgroundColor: 'transparent',
-                imagen : logoblanco,
-                colorbtn:'btn btn-danger my-2 my-sm-0 '
-            });
-        }
-    }
 
 
     render() {
@@ -66,7 +47,7 @@ class NavBar extends Component {
 
         return (<div>
             <header className="header">
-                <nav className="navbar navbar-expand-lg navbar-dark text-ligth fixed-top" style={containerStyle}>
+                <nav className="navbar navbar-expand-lg navbar-dark text-light fixed-top" style={containerStyle}>
                     <Link to="/">
                             <img src={this.state.imagen} className="logo" id="logo_header" height='48px' width='111px' alt='commitSRL'></img>
                     </Link>
@@ -137,11 +118,9 @@ class NavBar extends Component {
                                     </Link>
                                 </div>
                             </li>
-                            
+
                             <li className="nav-item ">
-                            <Link to="/contactanos" className="nav-link"> 
-                                    Contactanos
-                            </Link>
+                            FACEBOOK, LINKEDIN
                             </li>
                             
                         </ul>
