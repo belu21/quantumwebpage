@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     margin-top: 80px;
+  
 }
 .card-text{
     font-family: Gilroy-Light;
@@ -19,7 +20,7 @@
     color: white;
     font-family: Gilroy-Heavy;
     font-size: 200px;
-    padding: 100px;
+    padding: 5%;
    
 }
 
@@ -28,7 +29,8 @@
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-   
+    
+    
 }
 .CardNosTitle{
     font-family: Gilroy-Heavy;
