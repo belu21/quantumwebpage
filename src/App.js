@@ -9,13 +9,14 @@ import Partners from './components/Partners';
 import Clientes from './components/Clientes';
 import Equipamiento from './components/Equipamiento'
 import CasosExito from './components/CasosExito';
-import Contactanos from './components/Contactanos'
+import Contactanos from './components/Contactanos';
 
 import Card from "./components/Card"
 import img from "../src/images/barco.jpg"
 import img2 from "../src/images/niebla.jpg"
 
 import nosotros from './json/nosotros'
+import SimpleCard from "./components/SimpleCard";
 
 function App() {
     return (
@@ -29,36 +30,24 @@ function App() {
                 <Route path="/partners" component={Partners}/>
                 <Route path="/clientes" component={Clientes}/>
                 <Route path="/casosexito" component={CasosExito}/>
-                <Route path="/contactanos" component={Contactanos}/>
                 <Footer/>
             </Router>
         </div>
-
-
     );
-
 }
 
 const Home = () => {
     return (<div>
             <div className="tarjeta-home">
                 <div className="cabecera">
-                    
                     <div className="titulo-home">
                         CommIT
                     </div>
                     <div className="tarjeta-subhome ">
                         Tecnología de <br/>
-                            Vanguardia
-                        
+                        Vanguardia
                     </div>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <div className="tarjeta-subhome1 container px-6">
+                    <div className="tarjeta-subhome1 container">
                         <p>
                             La empresa CommIT tiene el nombre emblemático que representa la Tecnología en todo ámbito.
                             Actualmente contamos con un grupo de programadores y
@@ -66,25 +55,30 @@ const Home = () => {
                             clientes
                             particulares y empresas.
                         </p>
-
                     </div>
                 </div>
                 <div className="headivs">
-                    <p>ACERCA DE COMMIT</p>
+                    <div className="tittledivs">ACERCA DE COMMIT</div>
                     <div>
                         <h5>Somos una empresa especializada en ofrecer servicios de vanguardia a los
                             clientes</h5>
                     </div>
-
+                    <div className="card-area">
+                        <SimpleCard titulo="Cloud Computing"
+                                    texto="Consolidación de servidores mediante la VirtualizaciónImplementación de Cloud privada" to={"/servicios/cloud"}/>
+                        <SimpleCard titulo="Desarrollo de Software"
+                                    texto="Se cuenta con un personal altamente capacitado para desarrollo de Software" to={"/servicios/development"}/>
+                        <SimpleCard titulo="Soporte Técnico"
+                                    texto="Ofrecemos servicio de Soporte las 24 horas los 7 dias de la semana" to={"/servicios/soporte"}/>
+                    </div>
                 </div>
             </div>
             <div className="footer-tarjeta">
-                <Card texto={nosotros.mision.texto} titulo={nosotros.mision.titulo} image={img} to={"/nosotros/mision"}></Card>
-                <Card texto={nosotros.vision.texto} titulo={nosotros.vision.titulo} image={img2} to={"/nosotros/vision"}></Card>
-                {/*<Tarjeta info={nosotros.mision} to={'/nosotros/mision'}/>*/}
-                {/*<Tarjeta info={nosotros.vision} to={'/nosotros/vision'}/>*/}
+                <Card texto={nosotros.mision.texto} titulo={nosotros.mision.titulo} image={img}
+                      to={"/nosotros/mision"}/>
+                <Card texto={nosotros.vision.texto} titulo={nosotros.vision.titulo} image={img2}
+                      to={"/nosotros/vision"}/>
             </div>
-
         </div>
     );
 }

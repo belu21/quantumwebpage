@@ -33,14 +33,11 @@
   text-align: justify;
 }
 .tarjeta-subhome1 > p {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
-  padding-top: 5%;
+  margin-top: 100px;
+  padding: 5%;
   font-family: Poppins-Regular;
   font-size: 20px;
   background-color: aliceblue;
-  opacity: 40%;
   color: black;
   box-shadow: 2px 2px 10px #666;
   
@@ -52,15 +49,18 @@
   height: 400px;
 }
 .footer-tarjeta{
-  background: url('../src/images/cup-coffee.jpg');
+  /*background: url('../src/images/cup-coffee.jpg');*/
+  /*background-image: linear-gradient(180deg, white, red);*/
+  background: linear-gradient(180deg, rgba(255,255,255,1) 23%, rgba(205,20,20,1) 100%);
   background-size: cover;
   
   align-items: center;
   justify-content: center;
   margin: 0 -5px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .footer-tarjeta:after {
-  content: "";
   display: table;
   clear: both;
 }
@@ -68,16 +68,22 @@
   background-color: white;
   text-align: left;
   padding-top: 7%;
-  padding-left: 10%;
+  padding-left: 5%;
   padding-bottom: 7%;
-  padding-right: 30%;
   color: olivedrab;
 }
 .headivs h5{
   color: #6a6a6a;
 }
-.headivs p{
+.tittledivs{
   color: #0A416B;
   font-size: 40px;
   font-family: Bank-Gothic-Regular;
+}
+
+.card-area {
+  margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: inherit;
 }

@@ -8,7 +8,7 @@ class Subtitulo extends Component {
     }
 
     backgroundStyle = {
-        backgroundImage: `url(${this.props.background})`,
+        backgroundImage: 'transparent',
         backgroundSize: 'cover',
         padding: '2%'
     }
