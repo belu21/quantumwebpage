@@ -4,6 +4,7 @@ import '../css/estiloNosotros.css'
 import Subtitulo from "./Subtitulo";
 import img1 from '../images/atardecer.jpg';
 import img2 from '../images/people.jpg';
+import {Card} from 'react-bootstrap';
 
 class Nosotros extends React.Component {
 
@@ -16,38 +17,53 @@ class Nosotros extends React.Component {
             <div className="head">
                 Nosotros
             </div>
-            <div>
+            <div className="body">
 
-                {/*<Subtitulo titulo={this.state.nosotros.antecedentes.titulo} desc={this.state.nosotros.antecedentes.texto} background={img2} lado={"left"}></Subtitulo>*/}
-                <Subtitulo titulo="Valores" desc="Nuestros valores forman parte vital de CommIT. Promovemos la mejora continua, la profesionalidad, la ilusión en el trabajo, Compromiso con el éxito de nuestros clientes: Entendemos las necesidades de nuestros clientes
-internos y cumplimos lo que ofrecemos. El éxito de los clientes es nuestro éxito.
-Ética incuestionable: La integridad es la base fundamental de nuestra vida diaria y sustenta cada
-decisión que tomamos.
+<Card style={{ width: '350px', height:'350px', border:'none', borderRadius:'0px', margin:'40px'}} className="CardNosotros">
+    <Card.Body style={{padding:'40px'}}>
+        <Card.Title className="CardNosTitle" style={{fontfamily:'Gilroy-Heavy', color:'#464856', fontSize:'25px'}}>Valores</Card.Title>
+       
+        <Card.Text  style={{fontfamily:'Gilroy-Light', color:'#464856', fontSize:'15px'}}>
+            Some quick example text to build on the card title and make up the bulk of
+            the card's content.
+            Some quick example text to build on the card title and make up the bulk of
+            the card's content.
+        </Card.Text>
+       
+    </Card.Body>
+</Card>
+<Card style={{ width: '350px', height:'350px', border:'none', borderRadius:'0px', margin:'40px'}} className="CardNosotros">
+    <Card.Body style={{padding:'30px'}}>
+        <Card.Title className="CardNosTitle" style={{fontfamily:'Gilroy-Heavy', color:'#464856', fontSize:'25px'}}>Mision</Card.Title>
+       
+        <Card.Text  style={{fontfamily:'Gilroy-Light', color:'#464856', fontSize:'15px'}}>
+            Some quick example text to build on the card title and make up the bulk of
+            the card's content.
+            Some quick example text to build on the card title and make up the bulk of
+            the card's content.
+        </Card.Text>
+       
+    </Card.Body>
+</Card>
+<br/>
+<Card style={{ width: '350px', height:'350px', border:'none', borderRadius:'0px', margin:'40px'}} className="CardNosotros">
+    <Card.Body style={{padding:'30px'}}>
+        <Card.Title className="CardNosTitle" style={{fontfamily:'Gilroy-Heavy', color:'#464856', fontSize:'25px'}}>Vision</Card.Title>
+       
+        <Card.Text  style={{fontfamily:'Gilroy-Light', color:'#464856', fontSize:'15px'}}>
+            Some quick example text to build on the card title and make up the bulk of
+            the card's content.
+            Some quick example text to build on the card title and make up the bulk of
+            the card's content.
+        </Card.Text>
+       
+    </Card.Body>
+</Card>
 
-Flexibilidad y agilidad con un propósito: Adaptación al cambio constante, para crear soluciones
-corden a las las necesidades del cliente que y contribuyen a mejores resultados.
+</div>
 
-Sentido de equipo: Creemos en la colaboración y confianza mutua. Entendemos que nuestro éxito global
-depende de la sinergia que construyamos en conjunto.
-
-Respeto por el individuo y por la diversidad: P ara nosotros las diferencias no son obstáculos sino
-valiosas oportunidades de aprendizaje.
-
-Responsabilidad: Por el servicio que ofrecemos," background={img2} lado={"left"}></Subtitulo>
-                <Subtitulo titulo={this.state.nosotros.mision.titulo} desc="Somos una empresa que ofrece soluciones
-innovadoras estableciendo alianzas estratégicas
-duraderas potenciando el crecimiento de
-nuestros clientes acorde a la evolución
-tecnológica emergente a nivel mundial" background={img1} lado={"right"}></Subtitulo>
-                <Subtitulo titulo={this.state.nosotros.vision.titulo} desc="Apoyar a nuestros clientes en la provisión de
-soluciones tecnológicas vanguardistas que generen
-de valor para sus organizaciones logrando su
-credibilidad y confianza" background={img1} lado={"left"}></Subtitulo>
-                {/*  <SubTarjeta info={this.state.nosotros.quienessomos}></SubTarjeta> */}
-            </div>
-
-        </div>;
-    }
+</div>;
+}
 }
 
 export default Nosotros;
