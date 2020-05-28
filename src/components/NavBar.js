@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import { Link } from 'react-router-dom';
 import '../css/estiloNavbar.css'
-import secondlogo from '../images/logo100.png';
 import logoblanco from '../images/logoblanco100.png'
 
 class NavBar extends Component {

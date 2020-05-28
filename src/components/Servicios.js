@@ -11,8 +11,14 @@ class Servicios extends React.Component {
         servicio: servicio
     }
     render() {
-        return <div>
-            <div className="head">
+        return <div className="text-dark">
+            <div className="head mt-5">
+                <div className="container mb-5">
+                    <h1 className="h1">Servicios</h1>
+                    <div className="flex justify-content-between content">{this.state.servicio.cloudComputing.subs}</div>
+                </div>
+
+
                 SERVICIOS
                 <div className="service">
                     <div className="">{this.state.servicio.cloudComputing.titulo}<img src={cloud} height={100} alt={"not_found"}></img></div>
