@@ -9,7 +9,6 @@ import Partners from './components/Partners';
 import Clientes from './components/Clientes';
 import Equipamiento from './components/Equipamiento'
 import CasosExito from './components/CasosExito';
-import Contactanos from './components/Contactanos';
 
 import Card from "./components/Card"
 import img from "../src/images/barco.jpg"

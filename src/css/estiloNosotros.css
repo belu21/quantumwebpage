@@ -2,40 +2,22 @@
     background-color: #DC3441;
     background-size: cover;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     margin-top: 80px;
   
 }
-.card-text{
-    font-family: Gilroy-Light;
-    max-width:100%;
-    text-align: justify;
-}
-.card-header{
-    font-family: Gilroy-Heavy;
-    font-size: 200%;
-}
-.head{
+.head-nosotros{
     background-color: transparent !important;
     color: white;
     font-family: Gilroy-Heavy;
-    font-size: 200px;
+    font-size: 100px;
     padding: 5%;
-   
-
-   
 }
 
-.body{
+.body-nosotros{
     background-color: transparent !important;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    
-    
-}
-.CardNosTitle{
-    font-family: Gilroy-Heavy;
 
 }

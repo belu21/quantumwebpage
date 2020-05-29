@@ -1,8 +1,8 @@
 import React from 'react'
 import servicio from '../json/servicio'
 import '../css/estiloServicios.css'
-import continuidad from "../images/continuidad.png"
-import cloud from "../images/cloudcomp.png"
+import CardServicios from './CardServicios';
+
 
 
 class Servicios extends React.Component {
@@ -11,19 +11,55 @@ class Servicios extends React.Component {
         servicio: servicio
     }
     render() {
-        return <div>
-            <div className="head">
+        return <div className="servicios">
+            <div className="head-servicios">
+                Servicios
+            </div>
+            <div className="body-servicios">
+
+                
+                <CardServicios titulo='Servicio 1' 
+                            texto='Some quick example text to build on the card title and make up the bulk of
+                            the cards content.
+                            Some quick example text to build on the card title and make up the bulk of
+                            the cards content.'
+                />
+                 <CardServicios titulo='Servicio 2' 
+                            texto='Some quick example text to build on the card title and make up the bulk of
+                            the cards content.
+                            Some quick example text to build on the card title and make up the bulk of
+                            the cards content.'
+                />
+                 <CardServicios titulo='Servicio 3' 
+                            texto='Some quick example text to build on the card title and make up the bulk of
+                            the cards content.
+                            Some quick example text to build on the card title and make up the bulk of
+                            the cards content.'
+                />
+               
+
+            </div>
+
+
+
+           {/*  <div className="head mt-5">
+                <div className="container mb-5">
+                    <h1 className="h1">Servicios</h1>
+                    <div className="flex justify-content-between content">{this.state.servicio.cloudComputing.subs}</div>
+                </div>
+
+
                 SERVICIOS
                 <div className="service">
                     <div className="">{this.state.servicio.cloudComputing.titulo}<img src={cloud} height={100} alt={"not_found"}></img></div>
                     <div className="jumbotron servdesc">{this.state.servicio.cloudComputing.subs}</div>
                 </div>
                 <div className="service">
-                    <div className="">{this.state.servicio.continuidad.titulo}<img src={continuidad} height={100} alt={"not_found"}></img></div>
+                    <div className="">{this.state.servicio.continuidad.titulo}<img src={continuidad} height={100} alt={"not_found"}></img></div> */}
                     {/*<div className="jumbotron servdesc">*/}
                     {/*    Alta Disponibilidad*/}
                     {/*</div>*/}
-                    <div className="circleBase circle servdesc">
+                   {/*  <div className="circleBase circle servdesc">
                         <p>Alta disponibilidad</p>
                     </div>
                     <div className="circleBase circle servdesc">
@@ -34,11 +70,11 @@ class Servicios extends React.Component {
                     </div>
                 </div>
                 <div className="service">
-                    <div className="">{this.state.servicio.servicioEducacion.titulo}<img src={continuidad} height={100} alt={"not_found"}></img></div>
+                    <div className="">{this.state.servicio.servicioEducacion.titulo}<img src={continuidad} height={100} alt={"not_found"}></img></div> */}
                     {/*<div className="jumbotron servdesc">*/}
                     {/*    Alta Disponibilidad*/}
                     {/*</div>*/}
-                    <div className="circleBase circle servdesc">
+                   {/*  <div className="circleBase circle servdesc">
                         <p>PMI Dirección de Proyectos PMBOK</p>
                     </div>
                     <div className="circleBase circle servdesc">
@@ -99,7 +135,7 @@ class Servicios extends React.Component {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
             {/*<div className="body">*/}
             {/*    <Subtitulo titulo={this.state.servicio.continuidad.titulo} desc={this.state.servicio.continuidad.subs} background={img2} lado={"left"}></Subtitulo>*/}
             {/*    <Subtitulo titulo={this.state.servicio.desarrolloSoftware.titulo} desc={this.state.servicio.desarrolloSoftware.subs} background={img2} lado={"left"}></Subtitulo>*/}
