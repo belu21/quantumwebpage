@@ -1,21 +1,83 @@
-.servicios{
-    background-color: #ffffff;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    margin-top: 80px;
-}
-.head-servicios{
-    background-color: transparent !important;
-    color:  #464856;;
-    font-family: Gilroy-Heavy;
-    font-size: 100px;
-    padding: 5%;
-}
-.body-servicios{
+.body{
     background-color: transparent !important;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
 
+}
+.content{
+    font-family: Poppins-SemiBold;
+    font-size: 23px;
+    color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.h1{
+    font-size: 3.75rem;
+    line-height: 1em;
+    margin-top: .4em;
+    margin-bottom: .4em;
+    font-weight: 500;
+}
+.superior-service{
+    padding-top: 140px;
+    display: flex;
+}
+
+.superior-service h1{
+    font-size: 3.75rem;
+    line-height: 1em;
+    margin-top: .4em;
+    margin-bottom: .4em;
+}
+
+.half-and-half{
+    display: flex;
+}
+.half{
+    display: block;
+    width: 46.5%;
+}
+.half h3 {
+    vertical-align: inherit;
+}
+
+.left-service{
+    width: 65%;
+}
+.icon-right-service{
+    display: block;
+    /*align-self: center;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.jc-between{
+    justify-content: space-between;
+}
+
+.flex-service{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cornell{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 2px solid #191e1e;
+}
+
+.left{
+    width: 30%;
+}
+
+.right{
+    width: 61%;
+}
+
+@media only screen and (max-width: 950px) {
+    /* For mobile phones: */
+    [class*="flex-service"] {
+        width: 100%;
+    }
 }

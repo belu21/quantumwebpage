@@ -1,7 +1,6 @@
 import React from 'react'
 import casosexito from '../json/casosexito'
 import '../css/estiloCasosExito.css'
-import Tarjeta from './Tarjeta'
 
 class CasosExito extends React.Component{
     state = {
@@ -15,9 +14,7 @@ class CasosExito extends React.Component{
             <div className="body">
 
                 <br></br>
-
-                   <Tarjeta info={this.state.casosexito.virtualizacion} />
-          
+                {this.state.casosexito.virtualizacion}
             </div>;
         </div>
     }

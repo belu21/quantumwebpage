@@ -1,7 +1,6 @@
 import React from 'react'
 import equipamiento from '../json/equipamiento'
 import '../css/estiloEquipamiento.css'
-import Tarjeta from './Tarjeta'
 
 
 class Equipamiento extends React.Component{
@@ -16,9 +15,8 @@ class Equipamiento extends React.Component{
             <div className="body">
 
             <br></br>
-
-                   <Tarjeta info={this.state.equipamiento.infraestructura} />
-                   <Tarjeta info={this.state.equipamiento.seguridad} />
+                {this.state.equipamiento.infraestructura}
+                {this.state.equipamiento.seguridad}
             </div>;
         </div>
     }
