@@ -6,18 +6,20 @@
 
 }
 .content{
-    font-family: Poppins-SemiBold;
+    font-family: Metropolis-Medium;
     font-size: 23px;
     color: black;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 .h1{
+    font-family: Metropolis-Bold;
     font-size: 3.75rem;
     line-height: 1em;
     margin-top: .4em;
     margin-bottom: .4em;
     font-weight: 500;
+
 }
 .superior-service{
     padding-top: 140px;
@@ -40,6 +42,11 @@
 }
 .half h3 {
     vertical-align: inherit;
+    font-family: Metropolis-Medium, sans-serif;
+}
+
+.half p {
+    font-family: Metropolis-Thin, sans-serif;
 }
 
 .left-service{
@@ -67,8 +74,17 @@
     border-top: 2px solid #191e1e;
 }
 
+.cornell h2{
+    font-family: Metropolis-Medium, sans-serif;
+}
+
+.cornell p{
+    font-family: Metropolis-Thin, sans-serif;
+}
+
 .left{
     width: 30%;
+    min-width: 320px;
 }
 
 .right{
@@ -78,6 +94,18 @@
 @media only screen and (max-width: 950px) {
     /* For mobile phones: */
     [class*="flex-service"] {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 940px) {
+    /* For mobile phones: */
+    [class*="left"] {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 940px) {
+    /* For mobile phones: */
+    [class*="right"] {
         width: 100%;
     }
 }

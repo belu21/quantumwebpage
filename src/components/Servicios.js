@@ -2,12 +2,14 @@ import React from 'react'
 import servicio from '../json/servicio'
 import '../css/estiloServicios.css'
 import icon from "../images/icon_finder_service.png"
+import {Chip} from "@material-ui/core";
 
 class Servicios extends React.Component {
 
     state = {
         servicio: servicio
     }
+
 
     render() {
         return <div className="superior-service">
@@ -47,7 +49,65 @@ class Servicios extends React.Component {
                             <h2 className="h2">Soluciones de Software a Medida</h2>
                         </div>
                         <div className="right">
+                            <p className="mb-3">Desarrollamos Software a pedido del cliente, con una amplia gamma de conocimientos por parte del backend, como ser microservicios con uso de Java</p>
+                            <Chip variant="default" label="Devops" style={{margin: 6}}/>
+                            <Chip variant="default" label="API REST" style={{margin: 6}}/>
+                            <Chip variant="default" label="SOAP" style={{margin: 6}}/>
+                            <Chip variant="default" label="Mobile" style={{margin: 6}}/>
+                        </div>
+                    </div>
+                </div>
+                <div className="cornell container pl-0">
+                    <div className="jc-between flex-service">
+                        <div className="left">
+                            <h2 className="h2">Gestion de Servicios</h2>
+                        </div>
+                        <div className="right">
+                            <p className="mb-3">Como desarrolladores, tambien nos ocupamos de organizar y gestionar dichos servicios de una manera optima y eficiente, como tambien software de uso continui del cliente, adecuandonos a sus necesidades.</p>
+                            <Chip variant="default" label="ITIL" style={{margin: 6}}/>
+                            <Chip variant="default" label="OTRS" style={{margin: 6}}/>
+                        </div>
+                    </div>
+                </div>
+                <div className="cornell container pl-0">
+                    <div className="jc-between flex-service">
+                        <div className="left">
+                            <h2 className="h2">Soporte Técnico</h2>
+                        </div>
+                        <div className="right">
                             <p className="mb-3"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto at atque cum ea eaque eveniet facilis fugit inventore nam nostrum, odio officiis optio porro sequi sit ut voluptates voluptatum?</span></p>
+                            <Chip variant="default" label="ITIL 4.0" style={{margin: 6}}/>
+                            <Chip variant="default" label="Agile" style={{margin: 6}}/>
+                            <Chip variant="default" label="Scrum" style={{margin: 6}} />
+                            <Chip variant="default" label="Kanban" style={{margin: 6}}/>
+                            <Chip variant="default" label="XP" style={{margin: 6}}/>
+                            <Chip variant="default" label="Postgres" style={{margin: 6}}/>
+                            <Chip variant="default" label="Informix" style={{margin: 6}}/>
+                            <Chip variant="default" label="Memsql" style={{margin: 6}}/>
+                            <Chip variant="default" label="Vertica" style={{margin: 6}}/>
+                        </div>
+                    </div>
+                </div>
+                <div className="cornell container pl-0">
+                    <div className="jc-between flex-service">
+                        <div className="left">
+                            <h2 className="h2">Servicios de Educación</h2>
+                        </div>
+                        <div className="right">
+                            <p className="mb-3"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto at atque cum ea eaque eveniet facilis fugit inventore nam nostrum, odio officiis optio porro sequi sit ut voluptates voluptatum?</span></p>
+                            {/*un ejemplo de otro tipo de chip*/}
+                            <Chip variant="outlined" label="Linux" style={{margin: 6}}/>
+                            <Chip variant="outlined" label="Bases de Datos" style={{margin: 6}}/>
+                            <Chip variant="outlined" label="Enterprise DB" style={{margin: 6}}/>
+                            <Chip variant="outlined" label="Postgres" style={{margin: 6}}/>
+                            <Chip variant="outlined" label="Informix" style={{margin: 6}}/>
+                            <Chip variant="outlined" label="Memsql" style={{margin: 6}}/>
+                            <Chip variant="outlined" label="Vertica" style={{margin: 6}}/>
+                            <Chip variant="outlined" label="PMI (PMBOK)" style={{margin: 6}}/>
+                            <Chip variant="outlined" label="Management 3.0" style={{margin: 6}}/>
+                            <Chip variant="outlined" label="ITIL 4.0" style={{margin: 6}}/>
+                            <Chip variant="outlined" label="Agile" style={{margin: 6}}/>
+                            <Chip variant="outlined" label="Industria 4.0" style={{margin: 6}}/>
                         </div>
                     </div>
                 </div>

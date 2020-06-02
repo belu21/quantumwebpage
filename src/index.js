@@ -28,6 +28,9 @@ import './fonts/Gilroy-Heavy.ttf';
 import './fonts/Gilroy-Light.ttf';
 import './fonts/Gilroy-Medium.ttf';
 import './fonts/Gilroy-Regular.ttf';
+import './fonts/Metropolis-Bold.otf';
+import './fonts/Metropolis-Medium.otf';
+import './fonts/Metropolis-Thin.otf';
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
