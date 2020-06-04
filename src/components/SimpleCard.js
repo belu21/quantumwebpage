@@ -44,7 +44,7 @@ export default function SimpleCard(props) {
                 </Typography>
             </CardContent>
             <CardActions>
-                <Button size="small" href={props.to}>Ver Mas</Button>
+                <Button size="small" href={props.to} >Ver Mas</Button>
             </CardActions>
         </Card>
     );

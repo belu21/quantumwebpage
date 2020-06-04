@@ -87,3 +87,17 @@
   flex-wrap: wrap;
   min-width: inherit;
 }
+.servicios-home{
+  background-color: #F0F8FF;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: inherit;
+  align-content: center;
+}
+.figures-icons
+{
+  margin: 5%;
+  color: #000;
+  align-content: center;
+
+}
