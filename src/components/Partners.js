@@ -22,7 +22,7 @@ class Partners extends React.Component{
                         <div className="flex-service jc-between half-and-half card-part">
                             <div className="half">
                                 <h3 className="h3">Cisco</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium ad aperiam architecto atque dicta doloremque expedita iste libero maxime minus, molestias quidem, quod repudiandae temporibus unde ut veritatis voluptatem!</p>
+                                <p>La tecnología Cisco, resuelve, crea, inspira, sana y se asegura de ayudarte a contruir tus puentes.</p>
                             </div>
                             <div className="half">
                                 <div className="icon-right-service  text-center">
@@ -33,7 +33,7 @@ class Partners extends React.Component{
                         <div className="flex-service jc-between half-and-half card-part">
                             <div className="half">
                                 <h3 className="h3">Dell</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur esse et hic necessitatibus nisi quam recusandae rerum similique vel? Commodi earum exercitationem, id obcaecati voluptate voluptatem voluptatibus. Aliquam, molestiae?</p>
+                                <p>Dell potencia a países, comunidades, clientes y a gente de cualquier lugar para que usen la tecnología con el fin de concretar sus sueños</p>
                             </div>
                             <div className="half">
                                 <div className="icon-right-service text-center">
@@ -44,7 +44,7 @@ class Partners extends React.Component{
                         <div className="flex-service jc-between half-and-half card-part">
                             <div className="half">
                                 <h3 className="h3">HP</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur esse et hic necessitatibus nisi quam recusandae rerum similique vel? Commodi earum exercitationem, id obcaecati voluptate voluptatem voluptatibus. Aliquam, molestiae?</p>
+                                <p>La visión de HP consiste en crear tecnología que mejore la vida de todos, en todas partes: cada persona, cada organización y cada comunidad de todo el mundo.</p>
                             </div>
                             <div className="half">
                                 <div className="icon-right-service text-center">
@@ -55,7 +55,7 @@ class Partners extends React.Component{
                         <div className="flex-service jc-between half-and-half card-part">
                             <div className="half">
                                 <h3 className="h3">Red Hat</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur esse et hic necessitatibus nisi quam recusandae rerum similique vel? Commodi earum exercitationem, id obcaecati voluptate voluptatem voluptatibus. Aliquam, molestiae?</p>
+                                <p>Red Hat es el proveedor líder mundial de soluciones de TI empresariales de código abierto.</p>
                             </div>
                             <div className="half">
                                 <div className="icon-right-service text-center">
@@ -66,7 +66,7 @@ class Partners extends React.Component{
                         <div className="flex-service jc-between half-and-half card-part">
                             <div className="half">
                                 <h3 className="h3">Sophos</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur esse et hic necessitatibus nisi quam recusandae rerum similique vel? Commodi earum exercitationem, id obcaecati voluptate voluptatem voluptatibus. Aliquam, molestiae?</p>
+                                <p>Sophos evoluciona para hacer frente a cada nuevo reto y protege a más de 400 000 empresas de todos los tamaños en más de 150 países frente a las ciberamenazas actuales más avanzadas. </p>
                             </div>
                             <div className="half">
                                 <div className="icon-right-service text-center">
@@ -77,7 +77,7 @@ class Partners extends React.Component{
                         <div className="flex-service jc-between half-and-half card-part">
                             <div className="half">
                                 <h3 className="h3">Suse</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur esse et hic necessitatibus nisi quam recusandae rerum similique vel? Commodi earum exercitationem, id obcaecati voluptate voluptatem voluptatibus. Aliquam, molestiae?</p>
+                                <p>SUSE trabaja con un ecosistema de partners y comunidades para ofrecer una infraestructura definida por software de código abierto y nivel empresarial, así como soluciones de entrega de aplicaciones respaldadas por un servicio y asistencia de excelente calidad.</p>
                             </div>
                             <div className="half">
                                 <div className="icon-right-service text-center">

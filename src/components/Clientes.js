@@ -60,7 +60,7 @@ export default function SimplePaper() {
                 <div className="flex-service mb-5">
                     <div className="flex-service left-service m-0">
                         <p className="content">
-                            CommIT SRL posee una variedad de clientes en todo el pais, junto con la excelencia en cada uno de los trabajos realizados.
+                            Nuestros clientes son nuestra prioridad, trabajamos incansablemente para procurar su bienestar y crecimiento a través de nuestros servicios.
                         </p>
                     </div>
 
@@ -71,8 +71,6 @@ export default function SimplePaper() {
                             <h2 className="h2">Empresas Financieras</h2>
                         </div>
                         <div className="right">
-                            <p className="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda beatae distinctio eos error facere optio quibusdam ullam ut voluptates!
-                                Blanditiis commodi dolores inventore, laborum nostrum possimus ratione tempora voluptatibus.</p>
                             <div className={classes.root}>
                                 <Paper elevation={3} style={{backgroundColor: "black"}}>
                                     <img src={be} alt="icon-be" style={{width: 120, height: 30, marginTop: "35%"}}/>
@@ -91,8 +89,6 @@ export default function SimplePaper() {
                             <h2 className="h2">Empresas del Gobierno</h2>
                         </div>
                         <div className="right">
-                            <p className="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda beatae distinctio eos error facere optio quibusdam ullam ut voluptates!
-                                Blanditiis commodi dolores inventore, laborum nostrum possimus ratione tempora voluptatibus.</p>
                             <div className={classes.root}>
                                 <Paper elevation={3}><img src={aduana} alt="icon-adu" style={{width: 128, height: 128}}/></Paper>
                                 <Paper elevation={3}><img src={alcaldia} alt="icon-alcaldia" style={{width: 128, height: 128}}/></Paper>
@@ -107,8 +103,6 @@ export default function SimplePaper() {
                             <h2 className="h2">Empresas Industriales</h2>
                         </div>
                         <div className="right">
-                            <p className="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda beatae distinctio eos error facere optio quibusdam ullam ut voluptates!
-                                Blanditiis commodi dolores inventore, laborum nostrum possimus ratione tempora voluptatibus.</p>
                             <div className={classes.root}>
                                 <Paper elevation={3}><img src={gruporoda} alt="icon-gruporoda" style={{width: 128, height: 128}}/></Paper>
                                 <Paper elevation={3}><img src={guabira} alt="icon-guabira" style={{width: 128, height: 128}}/></Paper>
@@ -123,8 +117,6 @@ export default function SimplePaper() {
                             <h2 className="h2">Empresas Petrolerass</h2>
                         </div>
                         <div className="right">
-                            <p className="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda beatae distinctio eos error facere optio quibusdam ullam ut voluptates!
-                                Blanditiis commodi dolores inventore, laborum nostrum possimus ratione tempora voluptatibus.</p>
                             <div className={classes.root}>
                                 <Paper elevation={3}><img src={petrobras} alt="icon-petrobras" style={{width: 128, height: 50, marginTop: "28%"}}/></Paper>
                                 <Paper elevation={3}><img src={repsol} alt="icon-repsol" style={{width: 128, height: 128}}/></Paper>
@@ -139,8 +131,6 @@ export default function SimplePaper() {
                             <h2 className="h2">Empresas de Servicios</h2>
                         </div>
                         <div className="right">
-                            <p className="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda beatae distinctio eos error facere optio quibusdam ullam ut voluptates!
-                                Blanditiis commodi dolores inventore, laborum nostrum possimus ratione tempora voluptatibus.</p>
                             <div className={classes.root}>
                                 <Paper elevation={3} style={{backgroundColor: "black"}}><img src={cotas} alt="icon-cotas" style={{width: 128, height: 30, marginTop: "38%"}}/></Paper>
                                 <Paper elevation={3}><img src={cre} alt="icon-cre" style={{width: 128, height: 80, marginTop: "18%"}}/></Paper>
@@ -155,8 +145,6 @@ export default function SimplePaper() {
                             <h2 className="h2">Empresas de Telecomunicaciones</h2>
                         </div>
                         <div className="right">
-                            <p className="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda beatae distinctio eos error facere optio quibusdam ullam ut voluptates!
-                                Blanditiis commodi dolores inventore, laborum nostrum possimus ratione tempora voluptatibus.</p>
                             <div className={classes.root}>
                                 <Paper elevation={3}><img src={entel} alt="icon-entel" style={{width: 128, height: 128}}/></Paper>
                                 <Paper elevation={3} style={{backgroundColor: "black"}}><img src={tigo} alt="icon-tigo" style={{width: 128, height: 128, padding: "4%"}}/></Paper>

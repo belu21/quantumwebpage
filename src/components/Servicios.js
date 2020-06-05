@@ -76,8 +76,7 @@ class Servicios extends React.Component {
                             <h2 className="h2">Soporte Técnico</h2>
                         </div>
                         <div className="right">
-                            <p className="mb-3"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto at atque cum ea eaque eveniet facilis fugit inventore nam nostrum, odio officiis optio porro sequi sit ut voluptates voluptatum?</span>
-                            </p>
+                            <p className="mb-3">Brindamos a nuestros clientes soporte técnico ante cualquier requerimiento o contingencia.</p>
                             <Chip variant="default" label="ITIL 4.0" style={{margin: 6}}/>
                             <Chip variant="default" label="Agile" style={{margin: 6}}/>
                             <Chip variant="default" label="Scrum" style={{margin: 6}}/>
@@ -96,8 +95,7 @@ class Servicios extends React.Component {
                             <h2 className="h2">Servicios de Educación</h2>
                         </div>
                         <div className="right">
-                            <p className="mb-3"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto at atque cum ea eaque eveniet facilis fugit inventore nam nostrum, odio officiis optio porro sequi sit ut voluptates voluptatum?</span>
-                            </p>
+                            <p className="mb-3">Tenemos personal certificado y experto en la formación técnica y académica</p>
                             {/*un ejemplo de otro tipo de chip*/}
                             <Chip variant="outlined" label="Linux" style={{margin: 6}}/>
                             <Chip variant="outlined" label="Bases de Datos" style={{margin: 6}}/>
