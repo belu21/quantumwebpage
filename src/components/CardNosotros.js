@@ -11,7 +11,7 @@ export default function CardNosotros(props) {
         }} className="CardNosotros">
             <Card.Body style={{padding: '40px'}}>
                 <Card.Title className="CardNosTitle" style={{
-                    fontFamily: 'Gilroy-Heavy',
+                    fontFamily: 'Metropolis-Thin',
                     color: '#464856',
                     fontSize: '25px'
                 }}> {props.titulo}</Card.Title>

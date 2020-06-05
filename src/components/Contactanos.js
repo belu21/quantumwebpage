@@ -1,6 +1,4 @@
 import React from 'react'
-import contactanos from '../json/contactanos'
-import '../css/estiloContactanos.css'
 
 class Contactanos extends React.Component{
     state = {

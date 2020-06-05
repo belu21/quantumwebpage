@@ -1,1 +1,16 @@
+.sec-ft{
+    width: 30%;
+    min-width: 300px;
+    padding: 5%;
+}
+.container-ft{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.links{
+    width: 250px;
+}
+.derechos{
+    border-top: 2px solid whitesmoke;
+}

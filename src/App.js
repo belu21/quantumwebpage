@@ -7,16 +7,12 @@ import Nosotros from './components/Nosotros';
 import Servicios from './components/Servicios';
 import Partners from './components/Partners';
 import Clientes from './components/Clientes';
-import Equipamiento from './components/Equipamiento'
-import CasosExito from './components/CasosExito';
 
 import Card from "./components/Card"
 import img from "../src/images/barco.jpg"
 import img2 from "../src/images/niebla.jpg"
 import Figure from 'react-bootstrap/Figure'
 
-
-import nosotros from './json/nosotros'
 import SimpleCard from "./components/SimpleCard";
 import ControlledCarousel from "./components/ControlledCarousel"
 
@@ -24,26 +20,25 @@ function App() {
     return (
         <div className='home'>
             <Router>
-                <NavBar />
-                <Route path="/" exact component={Home} />
-                <Route path="/nosotros" component={Nosotros} />
-                <Route path="/servicios" component={Servicios} />
-                <Route path="/equipamiento" component={Equipamiento} />
-                <Route path="/partners" component={Partners} />
-                <Route path="/clientes" component={Clientes} />
-                <Route path="/casosexito" component={CasosExito} />
-                <Footer />
+                <NavBar>
+                <Route path="/" exact component={Home}/>
+                <Route path="/nosotros" component={Nosotros}/>
+                <Route path="/servicios" component={Servicios}/>
+                <Route path="/partners" component={Partners}/>
+                <Route path="/clientes" component={Clientes}/>
+                </NavBar>
+               
+                <Footer/>
             </Router>
         </div>
     );
 }
 
 const Home = () => {
-    return (<div>
-        <div className="tarjeta-home">
+    return (<div className="home">
             <div className="cabecera">
-                <div className="titulo-home">
-                    CommIT
+                    <div className="titulo-home">
+                        CommIT
                     </div>
                 <div className="tarjeta-subhome ">
                     Tecnología de <br />
@@ -102,6 +97,16 @@ const Home = () => {
                            <h5>Soporte Tecnico</h5> 
                         </Figure.Caption>
                     </Figure>
+                    <div className="card-area">
+                        <SimpleCard titulo="Cloud Computing"
+                                    texto="Consolidación de servidores mediante la Virtualización Implementación de Cloud privada"
+                                    to="/servicios/#cloud"/>
+                        <SimpleCard titulo="Desarrollo de Software"
+                                    texto="Se cuenta con un personal altamente capacitado para desarrollo de Software"
+                                    to={"/servicios/#software"}/>
+                        <SimpleCard titulo="Soporte Técnico"
+                                    texto="Ofrecemos servicio de Soporte las 24 horas los 7 dias de la semana"
+                                    to={"/servicios/#soporte"}/>
                     </div>
             </div>
             
@@ -125,6 +130,14 @@ const Home = () => {
                     <SimpleCard titulo="Soporte Técnico"
                         texto="Ofrecemos servicio de Soporte las 24 horas los 7 dias de la semana" to={"/servicios/soporte"} />
                 </div>
+            <div className="footer-tarjeta" id="footer">
+                <Card
+                    texto="Somos una empresa que ofrecemos soluciones tecnológicas innovadoras acorde a sus necesidades con un compromiso de excelencia."
+                    titulo="Mision" image={img}
+                    to={"/nosotros/#mision"}/>
+                <Card texto="Ser la empresa líder en bolivia en generación de valor de negocios para nuestros clientes"
+                      titulo="Vision" image={img}
+                      to={"/nosotros/vision"}/>
             </div>
         <div className="footer-tarjeta">
             <Card texto={nosotros.mision.texto} titulo={nosotros.mision.titulo} image={img}
@@ -132,6 +145,7 @@ const Home = () => {
             <Card texto={nosotros.vision.texto} titulo={nosotros.vision.titulo} image={img2}
                 to={"/nosotros/vision"} />
         </div>
+    </div>
     </div>
     );
 }
