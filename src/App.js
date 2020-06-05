@@ -61,7 +61,6 @@ const Home = () => {
             </div>
             <div className="carousel">
                 <ControlledCarousel></ControlledCarousel>
-
             </div>
 
             <Slide direction='right' in='true' mountOnEnter unmountOnExit timeout={1200}>
@@ -70,31 +69,15 @@ const Home = () => {
                     <div className='figures-icons'>
 
                         <Figure>
-                            <Figure.Image
-                                width={171}
-                                height={180}
-                                alt="171x180"
-                                src={require('../src/images/cloud.png')}
-                                fluid="true"
-
-
-                            />
+                            <Figure.Image width={171} height={180} alt="171x180" src={require('../src/images/cloud.png')} fluid="true"/>
                             <Figure.Caption style={{ textAlign: 'center' }}>
                                 <h5> Cloud Computing</h5>
                             </Figure.Caption>
                         </Figure>
-
-
-
                     </div>
                     <div className='figures-icons'>
                         <Figure>
-                            <Figure.Image
-                                width={171}
-                                height={180}
-                                alt="171x180"
-                                src={require('../src/images/trabajo.png')}
-                            />
+                            <Figure.Image width={171} height={180} alt="171x180" src={require('../src/images/trabajo.png')}/>
                             <Figure.Caption style={{ textAlign: 'center' }}>
                                 <h5>Negocio</h5>
                             </Figure.Caption>
@@ -102,12 +85,7 @@ const Home = () => {
                     </div>
                     <div className='figures-icons'>
                         <Figure>
-                            <Figure.Image
-                                width={171}
-                                height={180}
-                                alt="171x180"
-                                src={require('../src/images/software.png')}
-                            />
+                            <Figure.Image width={171} height={180} alt="171x180" src={require('../src/images/software.png')}/>
                             <Figure.Caption style={{ textAlign: 'center' }}>
                                 <h5>Desarrollo de Software</h5>
                             </Figure.Caption>
@@ -115,12 +93,7 @@ const Home = () => {
                     </div>
                     <div className='figures-icons'>
                         <Figure>
-                            <Figure.Image
-                                width={171}
-                                height={180}
-                                alt="171x180"
-                                src={require('../src/images/apoyo.png')}
-                            />
+                            <Figure.Image width={171} height={180} alt="171x180" src={require('../src/images/apoyo.png')}/>
                             <Figure.Caption style={{ textAlign: 'center' }}>
                                 <h5>Gestión de Servicios</h5>
                             </Figure.Caption>
@@ -128,12 +101,7 @@ const Home = () => {
                     </div>
                     <div className='figures-icons'>
                         <Figure>
-                            <Figure.Image
-                                width={171}
-                                height={180}
-                                alt="171x180"
-                                src={require('../src/images/soporte-tecnico.png')}
-                            />
+                            <Figure.Image width={171} height={180} alt="171x180" src={require('../src/images/soporte-tecnico.png')}/>
                             <Figure.Caption style={{ textAlign: 'center' }} >
                                 <h5>Soporte Tecnico</h5>
                             </Figure.Caption>
@@ -141,65 +109,27 @@ const Home = () => {
                     </div>
                     <div className='figures-icons'>
                         <Figure>
-                            <Figure.Image
-                                width={171}
-                                height={180}
-                                alt="171x180"
-                                src={require('../src/images/estudiar.png')}
-                            />
+                            <Figure.Image width={171} height={180} alt="171x180" src={require('../src/images/estudiar.png')}/>
                             <Figure.Caption style={{ textAlign: 'center' }}>
                                 <h5>Educación</h5>
                             </Figure.Caption>
                         </Figure>
                     </div>
-
                 </div>
             </Slide>
 
-            
             <div className="carousel-partners">
-
-
                 <Carousel >
-
-                    <Carousel.Item  >
-                        <img
-                            className="logopartner"
-                            src={require('../src/images/partners/logo-dell.png')}
-                            alt="First slide"
-                        />
-
-                        <img
-                            className="logopartner"
-                            src={require('../src/images/partners/logo-red-hat.png')}
-                            alt="First slide"
-                        />
-                        <img
-                            className="logopartner"
-                            src={require('../src/images/partners/logo-hp.png')}
-                            alt="First slide"
-                        />
+                    <Carousel.Item>
+                        <img className="logopartner" src={require('../src/images/partners/logo-dell.png')} alt="First slide"/>
+                        <img className="logopartner" src={require('../src/images/partners/logo-red-hat.png')} alt="First slide"/>
+                        <img className="logopartner" src={require('../src/images/partners/logo-hp.png')} alt="First slide"/>
                     </Carousel.Item>
-                    <Carousel.Item >
-
-                        <img
-                            className="logopartner"
-                            src={require('../src/images/partners/logo-sophos.svg')}
-                            alt="First slide"
-                        />
-                        <img
-                            className="logopartner"
-                            src={require('../src/images/partners/logo-cisco.png')}
-                            alt="First slide"
-                        />
-                        <img
-                            className="logopartner"
-                            src={require('../src/images/partners/logo-suse.svg')}
-                            alt="First slide"
-                        />
-                        
+                    <Carousel.Item style={{position: "inherit"}}>
+                        <img className="logopartner" src={require('../src/images/partners/logo-sophos.svg')} alt="First slide"/>
+                        <img className="logopartner" src={require('../src/images/partners/logo-cisco.png')} alt="First slide"/>
+                        <img className="logopartner" src={require('../src/images/partners/logo-suse.svg')} alt="First slide"/>
                     </Carousel.Item>
-
                 </Carousel>
             </div>
 
