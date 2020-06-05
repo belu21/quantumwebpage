@@ -14,6 +14,8 @@ import ControlledCarousel from "./components/ControlledCarousel";
 import Figure from 'react-bootstrap/Figure';
 import Slide from '@material-ui/core/Slide';
 import Carousel from 'react-bootstrap/Carousel'
+import PoliticaPrivacidad from "./components/PoliticaPrivacidad";
+import CondicionesServicio from "./components/CondicionesServicio";
 
 
 
@@ -27,6 +29,8 @@ function App() {
                 <Route path="/servicios" component={Servicios} />
                 <Route path="/partners" component={Partners} />
                 <Route path="/clientes" component={Clientes} />
+                <Route path="/politica-privacidad" component={PoliticaPrivacidad} />
+                <Route path="/condiciones-serv" component={CondicionesServicio} />
                 <Footer />
             </Router>
         </div>

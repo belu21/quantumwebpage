@@ -33,4 +33,6 @@ import './fonts/Metropolis-Medium.otf';
 import './fonts/Metropolis-Thin.otf';
 
 
+
 ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<MessengerCustomerChat pageId="107993140945041" appId="879239499245291"/>, document.getElementById('root'));
