@@ -6,14 +6,14 @@
 
 }
 .content{
-    font-family: Metropolis-Medium;
+    font-family: Metropolis-Medium, sans-serif;
     font-size: 23px;
     color: black;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 .h1{
-    font-family: Metropolis-Bold;
+    font-family: Metropolis-Bold, sans-serif;
     font-size: 3.75rem;
     line-height: 1em;
     margin-top: .4em;
@@ -22,8 +22,9 @@
 
 }
 .superior-service{
-    padding-top: 140px;
+    padding-top: 40px;
     display: flex;
+    z-index:10
 }
 
 .superior-service h1{
@@ -57,7 +58,6 @@
     /*align-self: center;*/
     margin-left: auto;
     margin-right: auto;
-    display: block;
 }
 .jc-between{
     justify-content: space-between;

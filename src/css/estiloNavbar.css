@@ -1,89 +1,99 @@
-.p-31{
+.p-31 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
-.logo{
-    height:30%;
-    width:30%;
-    margin-left: 150px;
-}
-.header {
-  background-size: cover;
-    min-height: 10vh;
-    background-color: black;
-    position: fixed;
-    margin-bottom: 200px;
+
+.logo {
+    width: 210px;
+    height: 90px;
+    margin-left: 35%;
+    padding: 5%;
 }
 
-.header .navbar{
+.header-commit {
+    margin-bottom: 110px;
+}
+
+.header {
+    background-size: cover;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+}
+
+.header .navbar {
     background-color: black;
     transition: all 0.2s;
     padding: 1%;
     min-height: 100px;
 }
-.nav-link{
-    margin-left: 15px;
-    margin-right: 15px;
+
+.nav-link {
+    /*margin-left: 15px;*/
+    /*margin-right: 15px;*/
     /*background-color: white;*/
     margin-left: 4px;
     margin-right: 4px;
 }
+
 .nav-item {
     padding-bottom: 5px;
-    border-bottom-style: solid; 
-    color: transparent;   
+    border-bottom-style: solid;
+    color: transparent;
 }
-.nav-item:hover{
 
-    
-	
-		color: #ed1212;
-		cursor: pointer;
-	
+.nav-item:hover {
+    color: #ed1212;
+    cursor: pointer;
 }
 
 
-.nav .a{
+.nav .a {
     font-size: 16px;
     font-weight: 300;
-    font-family: Poppins-SemiBold;
+    font-family: Poppins-SemiBold, sans-serif;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
+    /*-ms-transition: all 0.2s ease;*/
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
     padding: 10px;
-    -webkit-border-radius:2px;
-    -moz-border-radius:2px;
-    border-radius:2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    cursor:pointer;
+    cursor: pointer;
     margin: 4px;
-    
+
 }
-.nav .a:hover, .navbar .a:active, .navbar .a{
+
+.nav .a:hover, .navbar .a:active, .navbar .a {
     text-decoration: none;
-    color: rgba(0,0,0,0.6);
+    color: rgba(0, 0, 0, 0.6);
 }
-.nav .a:hover{
-    background: rgba(0,0,0,0.06);
+
+.nav .a:hover {
+    background: rgba(0, 0, 0, 0.06);
 }
-.nav .a:active{
-    color: rgba(0,0,0,0.9);
-    background: rgba(0,0,0,0.1);
+
+.nav .a:active {
+    color: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.1);
 }
-.nav .a{
+
+.nav .a {
     color: #5bc0de;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 14px;
     float: right;
 }
+
 /*Shadow*/
 .nav .paper-shadow-bottom-z-2 {
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2);
 }
