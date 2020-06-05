@@ -4,12 +4,16 @@ import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
+import CardMedia from '@material-ui/core/CardMedia';
 import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
     root: {
-        width: 275,
+        width: 280,
         margin: 14
+    },
+    media: {
+        height: 250,
     },
     bullet: {
         display: "inline-block",
@@ -39,9 +43,16 @@ export default function SimpleCard(props) {
                     {props.titulo}
                 </Typography>
                 <br/>
+                <CardMedia
+                    className={classes.media}
+                    image={props.image}
+                    title="Contemplative Reptile"
+                />
+                <br/>
                 <Typography variant="body2" component="p" className={classes.p}>
                     {props.texto}
                 </Typography>
+               
             </CardContent>
             <CardActions>
                 <Button size="small" href={props.to} >Ver Mas</Button>

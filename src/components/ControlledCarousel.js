@@ -3,25 +3,23 @@ import Carousel from 'react-bootstrap/Carousel'
 
 
 
-export default function ControlledCarousel() {
+export default function ControlledCarousel(props) {
     
   
     return (
         <Carousel >
-        <Carousel.Item>
+        <Carousel.Item >
           <img
             className="d-block w-100"
             src={require('../images/slide1.png')}
             alt="First slide"
-            position='inhereit'
-            
           />
           <Carousel.Caption>
             <h1>¿Quiénes somos?</h1>
             <p>Ver mas información</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item >
           <img
             className="d-block w-100"
             src={require('../images/slide2.png')}

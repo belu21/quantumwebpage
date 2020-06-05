@@ -8,144 +8,237 @@ import Servicios from './components/Servicios';
 import Partners from './components/Partners';
 import Clientes from './components/Clientes';
 
-import Card from "./components/Card"
-import img from "../src/images/barco.jpg"
-import img2 from "../src/images/niebla.jpg"
-import Figure from 'react-bootstrap/Figure'
 
 import SimpleCard from "./components/SimpleCard";
-import ControlledCarousel from "./components/ControlledCarousel"
+import ControlledCarousel from "./components/ControlledCarousel";
+import Figure from 'react-bootstrap/Figure';
+import Slide from '@material-ui/core/Slide';
+import Carousel from 'react-bootstrap/Carousel'
+
+
 
 function App() {
     return (
         <div className='home'>
             <Router>
-                <NavBar>
-                <Route path="/" exact component={Home}/>
-                <Route path="/nosotros" component={Nosotros}/>
-                <Route path="/servicios" component={Servicios}/>
-                <Route path="/partners" component={Partners}/>
-                <Route path="/clientes" component={Clientes}/>
-                </NavBar>
-               
-                <Footer/>
+                <NavBar />
+                <Route path="/" exact component={Home} />
+                <Route path="/nosotros" component={Nosotros} />
+                <Route path="/servicios" component={Servicios} />
+                <Route path="/partners" component={Partners} />
+                <Route path="/clientes" component={Clientes} />
+                <Footer />
             </Router>
         </div>
     );
 }
 
 const Home = () => {
-    return (<div className="home">
-            <div className="cabecera">
-                    <div className="titulo-home">
-                        CommIT
+    return (<div>
+        <div>
+            <div>
+                <div className="titulo-home">
+                    CommIT
                     </div>
                 <div className="tarjeta-subhome ">
                     Tecnología de <br />
                         Vanguardia
                     </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
                 <div className="tarjeta-subhome1 container">
                     <p>
-                        CommIT es una empresa enfocada en el rubro de la
-                        Tecnología de la Información y Comunicación
-                        (TICs) , que ofrece servicios especializados y de
-                        consultoría de valor al cliente por más de 10 años a
-                        nivel nacional, integrando soluciones de alta calidad
-                        tanto en el sector público como privado.
+                        La empresa CommIT tiene el nombre emblemático que representa la Tecnología en todo ámbito.
+                        Actualmente contamos con un grupo de programadores y
+                        expertos que la conforman y que ya llevan muchos años trabajando en dar soluciones IT a
+                        clientes
+                        particulares y empresas.
                         </p>
                 </div>
             </div>
-            <div className="servicios-home">
+            <div className="carousel">
+                <ControlledCarousel></ControlledCarousel>
 
-                    <div className='figures-icons'>
-                    <Figure>
-                        <Figure.Image
-                            width={171}
-                            height={180}
-                            alt="171x180"
-                            src={require('../src/images/cloud.png')}
-                            fluid="true"
-                            
-                        />
-                        <Figure.Caption>
-                           <h5> Cloud Computing</h5>
-                        </Figure.Caption>
-                    </Figure>
-                    </div>
-                    <div className='figures-icons'>
-                    <Figure>
-                        <Figure.Image
-                            width={171}
-                            height={180}
-                            alt="171x180"
-                            src={require('../src/images/software.png')}
-                        />
-                        <Figure.Caption>
-                           <h5>Desarrollo de Software</h5> 
-                        </Figure.Caption>
-                    </Figure>
-                    </div>
-                    <div className='figures-icons'>
-                    <Figure>
-                        <Figure.Image
-                            width={171}
-                            height={180}
-                            alt="171x180"
-                            src={require('../src/images/soporte-tecnico.png')}
-                        />
-                        <Figure.Caption >
-                           <h5>Soporte Tecnico</h5> 
-                        </Figure.Caption>
-                    </Figure>
-                    <div className="card-area">
-                        <SimpleCard titulo="Cloud Computing"
-                                    texto="Consolidación de servidores mediante la Virtualización Implementación de Cloud privada"
-                                    to="/servicios/#cloud"/>
-                        <SimpleCard titulo="Desarrollo de Software"
-                                    texto="Se cuenta con un personal altamente capacitado para desarrollo de Software"
-                                    to={"/servicios/#software"}/>
-                        <SimpleCard titulo="Soporte Técnico"
-                                    texto="Ofrecemos servicio de Soporte las 24 horas los 7 dias de la semana"
-                                    to={"/servicios/#soporte"}/>
-                    </div>
             </div>
+
+            <Slide direction='right' in='true' mountOnEnter unmountOnExit timeout={1200}>
+                <div className='servicios-home'>
+                    <h1 className='titulo-servicios-home'>Servicios</h1>
+                    <div className='figures-icons'>
+
+                        <Figure>
+                            <Figure.Image
+                                width={171}
+                                height={180}
+                                alt="171x180"
+                                src={require('../src/images/cloud.png')}
+                                fluid="true"
+
+
+                            />
+                            <Figure.Caption style={{ textAlign: 'center' }}>
+                                <h5> Cloud Computing</h5>
+                            </Figure.Caption>
+                        </Figure>
+
+
+
+                    </div>
+                    <div className='figures-icons'>
+                        <Figure>
+                            <Figure.Image
+                                width={171}
+                                height={180}
+                                alt="171x180"
+                                src={require('../src/images/trabajo.png')}
+                            />
+                            <Figure.Caption style={{ textAlign: 'center' }}>
+                                <h5>Negocio</h5>
+                            </Figure.Caption>
+                        </Figure>
+                    </div>
+                    <div className='figures-icons'>
+                        <Figure>
+                            <Figure.Image
+                                width={171}
+                                height={180}
+                                alt="171x180"
+                                src={require('../src/images/software.png')}
+                            />
+                            <Figure.Caption style={{ textAlign: 'center' }}>
+                                <h5>Desarrollo de Software</h5>
+                            </Figure.Caption>
+                        </Figure>
+                    </div>
+                    <div className='figures-icons'>
+                        <Figure>
+                            <Figure.Image
+                                width={171}
+                                height={180}
+                                alt="171x180"
+                                src={require('../src/images/apoyo.png')}
+                            />
+                            <Figure.Caption style={{ textAlign: 'center' }}>
+                                <h5>Gestión de Servicios</h5>
+                            </Figure.Caption>
+                        </Figure>
+                    </div>
+                    <div className='figures-icons'>
+                        <Figure>
+                            <Figure.Image
+                                width={171}
+                                height={180}
+                                alt="171x180"
+                                src={require('../src/images/soporte-tecnico.png')}
+                            />
+                            <Figure.Caption style={{ textAlign: 'center' }} >
+                                <h5>Soporte Tecnico</h5>
+                            </Figure.Caption>
+                        </Figure>
+                    </div>
+                    <div className='figures-icons'>
+                        <Figure>
+                            <Figure.Image
+                                width={171}
+                                height={180}
+                                alt="171x180"
+                                src={require('../src/images/estudiar.png')}
+                            />
+                            <Figure.Caption style={{ textAlign: 'center' }}>
+                                <h5>Educación</h5>
+                            </Figure.Caption>
+                        </Figure>
+                    </div>
+
+                </div>
+            </Slide>
+
             
-            <div>
-                <ControlledCarousel  >
+            <div className="carousel-partners">
 
-                </ControlledCarousel>
+
+                <Carousel >
+
+                    <Carousel.Item  >
+                        <img
+                            className="logopartner"
+                            src={require('../src/images/partners/logo-dell.png')}
+                            alt="First slide"
+                        />
+
+                        <img
+                            className="logopartner"
+                            src={require('../src/images/partners/logo-red-hat.png')}
+                            alt="First slide"
+                        />
+                        <img
+                            className="logopartner"
+                            src={require('../src/images/partners/logo-hp.png')}
+                            alt="First slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item >
+
+                        <img
+                            className="logopartner"
+                            src={require('../src/images/partners/logo-sophos.svg')}
+                            alt="First slide"
+                        />
+                        <img
+                            className="logopartner"
+                            src={require('../src/images/partners/logo-cisco.png')}
+                            alt="First slide"
+                        />
+                        <img
+                            className="logopartner"
+                            src={require('../src/images/partners/logo-suse.svg')}
+                            alt="First slide"
+                        />
+                        
+                    </Carousel.Item>
+
+                </Carousel>
             </div>
-        </div>
-        <div className="headivs">
-                <div className="tittledivs">ACERCA DE COMMIT</div>
+
+            <div className="headivs">
+                <div className="tittledivs">Clientes de COMMIT</div>
                 <div>
                     <h5>Somos una empresa especializada en ofrecer servicios de vanguardia a los
                             clientes</h5>
                 </div>
                 <div className="card-area">
-                    <SimpleCard titulo="Cloud Computing"
-                        texto="Consolidación de servidores mediante la VirtualizaciónImplementación de Cloud privada" to={"/servicios/cloud"} />
-                    <SimpleCard titulo="Desarrollo de Software"
-                        texto="Se cuenta con un personal altamente capacitado para desarrollo de Software" to={"/servicios/development"} />
-                    <SimpleCard titulo="Soporte Técnico"
-                        texto="Ofrecemos servicio de Soporte las 24 horas los 7 dias de la semana" to={"/servicios/soporte"} />
+                         <SimpleCard  titulo="Empresas Financieras"
+                        image={require('../src/images/iconos-clientes/dinero.png')}
+                        texto="Some quick example text to build on the card title and make up the bulk of the cards content."
+                        to="/clientes/#financieras" />
+                        <SimpleCard  titulo="Empresas de Gobierno"
+                        image={require('../src/images/iconos-clientes/gobierno.png')}
+                        texto="Some quick example text to build on the card title and make up the bulk of the cards content."
+                        to="/clientes" />
+                        <SimpleCard  titulo="Empresas Industriales"
+                        image={require('../src/images/iconos-clientes/fabrica.png')}
+                        texto="Some quick example text to build on the card title and make up the bulk of the cards content."
+                        to="/clientes" />
+                        <SimpleCard  titulo="Empresas Petroleras"
+                        image={require('../src/images/iconos-clientes/industria-minera.png')}
+                        texto="Some quick example text to build on the card title and make up the bulk of the cards content."
+                        to="/clientes" />
+                        <SimpleCard  titulo="Empresas de    Servicios"
+                        image={require('../src/images/iconos-clientes/idea.png')}
+                        texto="Some quick example text to build on the card title and make up the bulk of the cards content."
+                        to="/clientes" />
+                        <SimpleCard  titulo="Empresas de Telecomunicación"
+                        image={require('../src/images/iconos-clientes/antena.png')}
+                        texto="Some quick example text to build on the card title and make up the bulk of the cards content."
+                        to="/clientes" />
+                   
                 </div>
-            <div className="footer-tarjeta" id="footer">
-                <Card
-                    texto="Somos una empresa que ofrecemos soluciones tecnológicas innovadoras acorde a sus necesidades con un compromiso de excelencia."
-                    titulo="Mision" image={img}
-                    to={"/nosotros/#mision"}/>
-                <Card texto="Ser la empresa líder en bolivia en generación de valor de negocios para nuestros clientes"
-                      titulo="Vision" image={img}
-                      to={"/nosotros/vision"}/>
             </div>
-        <div className="footer-tarjeta">
-            <Card texto={nosotros.mision.texto} titulo={nosotros.mision.titulo} image={img}
-                to={"/nosotros/mision"} />
-            <Card texto={nosotros.vision.texto} titulo={nosotros.vision.titulo} image={img2}
-                to={"/nosotros/vision"} />
         </div>
-    </div>
+       
     </div>
     );
 }

@@ -67,7 +67,7 @@
 .tittledivs{
   color: #0A416B;
   font-size: 40px;
-  font-family: Bank-Gothic-Regular, sans-serif;
+  font-family: Metropolis-Bold, sans-serif;
 }
 
 .card-area {
@@ -82,7 +82,18 @@
   display: flex;
   flex-wrap: wrap;
   min-width: inherit;
-  align-content: center;
+  justify-content: center
+}
+.titulo-servicios-home{
+    font-family: Metropolis-Bold, sans-serif;
+    font-size: 3rem;
+    line-height: 1em;
+    margin-top: .4em;
+    margin-bottom: .4em;
+    font-weight: 500;
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 5%;
 }
 .figures-icons
 {
@@ -90,4 +101,8 @@
   color: #000;
   align-content: center;
 
+}
+.logopartner{
+  padding: 5%;
+  width:33%;
 }

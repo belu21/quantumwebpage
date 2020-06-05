@@ -120,7 +120,7 @@ class NavBar extends Component {
                             </li>
 
                             <li className="nav-item ">
-                            <Link to="/#footer" className="nav-link">
+                            <Link to="/home/#footer" className="nav-link">
                                     Contactanos
                             </Link>
                             </li>
