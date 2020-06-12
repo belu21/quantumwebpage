@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/estiloNosotros.css'
 import Slide from '@material-ui/core/Slide';
+import {Chip} from "@material-ui/core";
 
 
 
@@ -30,7 +31,14 @@ class Nosotros extends React.Component {
                                 </div>
                                 <div className="half">
                                     <h3 className="h3">Valores</h3>
-                                    <p><b>Compromiso con el éxito de nuestros clientes:</b> Entendemos las necesidades de nuestros clientes
+                                    <Chip variant="default" label="Compromiso con el éxito de nuestros clientes" style={{margin: 6}}/>
+                                    <Chip variant="default" label="Ética incuestionable:" style={{margin: 6}}/>
+                                    <Chip variant="default" label="Flexibilidad y agilidad con un propósito" style={{margin: 6}}/>
+                                    <Chip variant="default" label="Sentido de equipo" style={{margin: 6}}/>
+                                    <Chip variant="default" label="Respeto por el individuo y por la diversidad" style={{margin: 6}}/>
+                                    <Chip variant="default" label="Responsabilidad" style={{margin: 6}}/>
+
+                                    {/* <p><b>Compromiso con el éxito de nuestros clientes:</b> Entendemos las necesidades de nuestros clientes
                                     internos y cumplimos lo que ofrecemos. El éxito de los clientes es nuestro éxito.</p>
                                     <p><b>Ética incuestionable:</b> La integridad es la base fundamental de nuestra vida diaria y sustenta cada
                                     decisión que tomamos.</p>
@@ -40,7 +48,7 @@ class Nosotros extends React.Component {
                                     depende de la sinergia que construyamos en conjunto.</p>
                                     <p><b>Respeto por el individuo y por la diversidad:</b> Para nosotros las diferencias no son obstáculos sino
                                     valiosas oportunidades de aprendizaje.</p>
-                                    <p><b>Responsabilidad:</b> Por el servicio que ofrecemos</p>
+                                    <p><b>Responsabilidad:</b> Por el servicio que ofrecemos</p> */}
 
                                 </div>
 
