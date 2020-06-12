@@ -8,7 +8,7 @@ class Nosotros extends React.Component {
     render() {
         return <div className="nosotros">
             <div className="superior-service">
-                <div className="container mb-5 jc-between" id="nosotros">
+                <div className="container mb-5 jc-between" id="quienes-somos">
                     <h1 className="h1">Nosotros</h1>
                     <div className="flex-service mb-5">
                         <div className="flex-service left-service m-0">
@@ -50,7 +50,7 @@ class Nosotros extends React.Component {
                             <div className="flex-service jc-between half-and-half card-part" id="mision">
                                 <div className="half">
                                     <h3 className="h3">Mision</h3>
-                                    <p>Somos una empresa que ofrece soluciones
+                                    <p className="parrafo">Somos una empresa que ofrece soluciones
                                     innovadoras estableciendo alianzas estratégicas
                                     duraderas potenciando el crecimiento de
                                     nuestros clientes acorde a la evolución
@@ -72,7 +72,7 @@ class Nosotros extends React.Component {
                                 </div>
                                 <div className="half">
                                     <h3 className="h3">Vision</h3>
-                                    <p>Apoyar a nuestros clientes en la provisión de
+                                    <p className="parrafo">Apoyar a nuestros clientes en la provisión de
                                     soluciones tecnológicas vanguardistas que generen
                                     de valor para sus organizaciones logrando su
                                     credibilidad y confianza</p>

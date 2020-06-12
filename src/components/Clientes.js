@@ -28,7 +28,7 @@ import ypfbandi from "../images/clientes/petroleras/logo-ypfb andina.png";
 import ypfbtrans from "../images/clientes/petroleras/logo-YPFB Transporte.png";
 import ypfbchaco from "../images/clientes/petroleras/logo-YPFBChaco.png";
 
-import cotas from "../images/clientes/servicios/logo-cotas.png";
+import cotas from "../images/clientes/servicios/logo_cotas.png";
 import cre from "../images/clientes/servicios/logo-CRE-removebg-preview.png";
 import delapaz from "../images/clientes/servicios/logo-delapaz.png";
 import elfec from "../images/clientes/servicios/logo-elfec.png";
@@ -72,12 +72,10 @@ export default function SimplePaper() {
                         </div>
                         <div className="right">
                             <div className={classes.root}>
-                                <Paper elevation={3} style={{backgroundColor: "black"}}>
-                                    <img src={be} alt="icon-be" style={{width: 120, height: 30, marginTop: "35%"}}/>
-                                </Paper>
+                                <Paper elevation={3}> <img src={be} alt="icon-be" style={{width: 128, height: 128}}/></Paper>
                                 <Paper elevation={3}><img src={bcb} alt="icon-bcb" style={{width: 128, height: 128}}/></Paper>
                                 <Paper elevation={3}><img src={brinks} alt="icon-brinks" style={{width: 128, height: 90, marginTop: "17%"}}/></Paper>
-                                <Paper elevation={3} style={{backgroundColor: "black"}}><img src={colsanmartin} alt="icon-snmtn" style={{width: 128, height: 80, marginTop: "19%"}}/></Paper>
+                                <Paper elevation={3} style={{backgroundColor: "white"}}><img src={colsanmartin} alt="icon-snmtn" style={{width: 128, height: 80, marginTop: "19%"}}/></Paper>
                                 <Paper elevation={3}><img src={edv} alt="icon-edv" style={{width: 128, height: 70, marginTop: "18%"}}/></Paper>
                                 <Paper elevation={3}><img src={fatima} alt="icon-fatima" style={{width: 128, height: 128}}/></Paper>
                                 <Paper elevation={3}><img src={nazareno} alt="icon-nazareno" style={{width: 128, height: 50, marginTop: "30%"}}/></Paper>
@@ -132,7 +130,7 @@ export default function SimplePaper() {
                         </div>
                         <div className="right">
                             <div className={classes.root}>
-                                <Paper elevation={3} style={{backgroundColor: "black"}}><img src={cotas} alt="icon-cotas" style={{width: 128, height: 30, marginTop: "38%"}}/></Paper>
+                                <Paper elevation={3}><img src={cotas} alt="icon-cotas" style={{width: 128, height: 128,paddingTop: "2%", paddingLeft: "2%"}}/></Paper>
                                 <Paper elevation={3}><img src={cre} alt="icon-cre" style={{width: 128, height: 80, marginTop: "18%"}}/></Paper>
                                 <Paper elevation={3}><img src={delapaz} alt="icon-delapaz" style={{width: 128, height: 80, marginTop: "18%"}}/></Paper>
                                 <Paper elevation={3}><img src={elfec} alt="icon-elfec" style={{width: 128, height: 80, marginTop: "18%"}}/></Paper>

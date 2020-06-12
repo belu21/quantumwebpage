@@ -6,6 +6,7 @@ import hp from "../images/partners/logo-hp.png";
 import redhat from "../images/partners/logo-red-hat.png";
 import sophos from "../images/partners/logo-sophos.svg";
 import suse from "../images/partners/logo-suse.svg";
+import arcserve from "../images/partners/logo-arcserve.png";
 
 class Partners extends React.Component{
     render() {
@@ -16,7 +17,7 @@ class Partners extends React.Component{
                     <div className="flex-service mb-5">
                         <div className="flex-service left-service m-0">
                             <p className="content">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam consectetur corporis culpa cumque, debitis, dignissimos doloribus esse explicabo incidunt ipsa laborum molestias quidem ratione repellat temporibus ut vero voluptate.
+                            Trabajamos con socios que ofrecen excelentes soluciones y servicios, lideres en sus respectivos rubros
                             </p>
                         </div>
                         <div className="flex-service jc-between half-and-half card-part" id="cisco">
@@ -59,7 +60,7 @@ class Partners extends React.Component{
                             </div>
                             <div className="half">
                                 <div className="icon-right-service text-center">
-                                    <img src={redhat} alt="icon-redhat" style={{width: "100%", height: 180}}/>
+                                    <img src={redhat} alt="icon-redhat" style={{width: "100%", height: 250}}/>
                                 </div>
                             </div>
                         </div>
@@ -82,6 +83,17 @@ class Partners extends React.Component{
                             <div className="half">
                                 <div className="icon-right-service text-center">
                                     <img src={suse} alt="icon-suse" style={{width: "100%", height: 250}}/>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex-service jc-between half-and-half card-part" id="arcserve">
+                            <div className="half">
+                                <h3 className="h3">Arcserve</h3>
+                                <p>Las empresas de hoy en día necesitan un socio que ofrezca protección de datos sin decepcionar. Llevamos más allá las copias de seguridad de toda la vida para desarrollar soluciones que construyan una fortaleza alrededor de tu infraestructura, una fortaleza que siempre proteja tus datos y aquello que tiene un valor incalculable.</p>
+                            </div>
+                            <div className="half">
+                                <div className="icon-right-service text-center">
+                                    <img src={arcserve} alt="icon-arcserve" style={{width: "100%", height: 70,margin:"4%"}}/>
                                 </div>
                             </div>
                         </div>
