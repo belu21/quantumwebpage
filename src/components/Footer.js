@@ -3,6 +3,7 @@ import '../css/estiloFooter.css';
 import {Facebook,Twitter,LinkedIn,WhatsApp} from "@material-ui/icons";
 import Button from '@material-ui/core/Button';
 import {Link} from "react-router-dom";
+import Formulario from "./Formulario"
 
 class Footer extends Component {
 
@@ -36,7 +37,14 @@ class Footer extends Component {
                         <Link to="#" className="nav-link text-light" style={{padding: 1}}><p>Politicas de privacidad</p></Link>
                     </div>
                 </div>
+                 <div className="formulario">
+                     <h3>Dejanos un mensaje, respondemos a la brevedad posible.</h3>
+                     <br></br>
+                     <br></br>
+                <Formulario></Formulario>
+                 </div>
             </div>
+           
             <div className="derechos p-3 text-center text-light">
                 &copy; 2020 CommIT SRL. Todos los derechos reservados.
             </div>
