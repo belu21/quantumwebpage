@@ -1,12 +1,29 @@
-import React from "react";
+import React, { Component } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button'
 
-export default function formulario(props) {
+class formulario extends Component {
 
+    /*
+    constructor(props) {
+        super(props);
+        this.enviar = this.enviar.bind(this);
+    }
 
+    enviar(event) {
+        event.preventDefault();
+        const data = new FormData(event.target);
+        
+        fetch('https://docs.google.com/forms/u/1/d/e/1FAIpQLSfjD8RjD9PHANeHhms1_zp0-4ZlHJi4SaETSdT9I-xAtwI97Q/formResponse', {
+          method: 'POST',
+          body: data,
+        });
+      }
+     */
+     
+      render(){
     return (<div>
-        <Form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfjD8RjD9PHANeHhms1_zp0-4ZlHJi4SaETSdT9I-xAtwI97Q/formResponse">
+        <Form action='https://docs.google.com/forms/u/1/d/e/1FAIpQLSfjD8RjD9PHANeHhms1_zp0-4ZlHJi4SaETSdT9I-xAtwI97Q/formResponse'>
             <Form.Group controlId="exampleForm.ControlInput1">
                 <Form.Label>Nombre:</Form.Label>
                 <Form.Control type="text" placeholder="Nombre y apellido" name="entry.332443509" />
@@ -24,10 +41,12 @@ export default function formulario(props) {
                 <Form.Label>Mensaje:</Form.Label>
                 <Form.Control as="textarea" rows="3" name="entry.121309753"/>
             </Form.Group>
-            <Button type="submit">Enviar</Button>
+            <Button type='submit'>Enviar</Button>
         </Form>
 
 
     </div>
     );
 }
+}
+export default formulario;
