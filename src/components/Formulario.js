@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button'
+
 
 class formulario extends Component {
 
@@ -19,10 +18,10 @@ class formulario extends Component {
           body: data,
         });
       }
-     */
-     
-      render(){
+
+       render(){
     return (<div>
+        
         <Form action='https://docs.google.com/forms/u/1/d/e/1FAIpQLSfjD8RjD9PHANeHhms1_zp0-4ZlHJi4SaETSdT9I-xAtwI97Q/formResponse'>
             <Form.Group controlId="exampleForm.ControlInput1">
                 <Form.Label>Nombre:</Form.Label>
@@ -43,7 +42,21 @@ class formulario extends Component {
             </Form.Group>
             <Button type='submit'>Enviar</Button>
         </Form>
+       
 
+
+    </div>
+    );
+}
+}
+export default formulario;
+
+     */
+     
+      render(){
+    return (<div>
+        
+       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfjD8RjD9PHANeHhms1_zp0-4ZlHJi4SaETSdT9I-xAtwI97Q/viewform?embedded=true" width="100%" height="781" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
 
     </div>
     );
