@@ -16,7 +16,7 @@ export default function ControlledCarousel(props) {
           />
           <Carousel.Caption>
             <h1>¿Quiénes somos?</h1>
-            <Link to='/nosotros/#quienes-somos'>
+            <Link to='/nosotros'>
             <p>Ver mas información</p>
             </Link>
           </Carousel.Caption>

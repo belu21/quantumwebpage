@@ -60,64 +60,80 @@ class NavBar extends Component {
                                     </Link>
                                 </li>
                            
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="/nosotros" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {/*<li className="nav-item dropdown">*/}
+                            {/*    <a className="nav-link dropdown-toggle" href="/nosotros" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">*/}
+                            {/*        Nosotros*/}
+                            {/*    </a>*/}
+                            {/*    <div className="dropdown-menu px-1" aria-labelledby="navbarDropdown">*/}
+                            {/*        <Link to="/nosotros/#valores" className="nav-link text-dark bg-light">*/}
+                            {/*            Valores*/}
+                            {/*        </Link>*/}
+                            {/*        <Link to="/nosotros/#mision" className="nav-link text-dark bg-light">*/}
+                            {/*            Mision*/}
+                            {/*        </Link>*/}
+                            {/*        <Link to="/nosotros/#vision" className="nav-link text-dark bg-light">*/}
+                            {/*            Vision*/}
+                            {/*        </Link>*/}
+                            {/*        <Link to="/nosotros/quienes-somos" className="nav-link text-dark bg-light">*/}
+                            {/*            Quienes Somos*/}
+                            {/*        </Link>*/}
+                            {/*    </div>*/}
+                            {/*</li>*/}
+                            <li className="nav-item ">
+                                <Link to="/nosotros" className="nav-link">
                                     Nosotros
-                                </a>
-                                <div className="dropdown-menu px-1" aria-labelledby="navbarDropdown">
-                                    <Link to="/nosotros/valores" className="nav-link text-dark bg-light">
-                                        Valores
-                                    </Link>
-                                    <Link to="/nosotros/mision" className="nav-link text-dark bg-light">
-                                        Mision
-                                    </Link>
-                                    <Link to="/nosotros/vision" className="nav-link text-dark bg-light">
-                                        Vision
-                                    </Link>
-                                    <Link to="/nosotros/quienes-somos" className="nav-link text-dark bg-light">
-                                        Quienes Somos
-                                    </Link>
-                                </div>
+                                </Link>
                             </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="/servicios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
-                                <div className="dropdown-menu px-1" aria-labelledby="navbarDropdown">
-                                    <Link to="/servicios/cloud-computing" className="nav-link text-dark bg-light">
-                                        Cloud Computing
-                                    </Link>
-                                    <Link to="/servicios/#negocio" className="nav-link  text-dark bg-light">
-                                        Negocio
-                                    </Link>
-                                    <Link to="/servicios/#software" className="nav-link text-dark bg-light">
-                                        Desarrollo de Software
-                                    </Link>
-                                    <Link to="/servicios/#gestion" className="nav-link text-dark bg-light">
-                                        Gestion de Servicios
-                                    </Link>
-                                    <Link to="/servicios/#soporte" className="nav-link text-dark bg-light">
-                                        Soporte Técnico
-                                    </Link>
-                                    <Link to="/servicios/#educacion" className="nav-link text-dark bg-light">
-                                        Educación
-                                    </Link>
-                                </div>
-                            </li>
+                            {/*<li className="nav-item dropdown">*/}
+                            {/*    <a className="nav-link dropdown-toggle" href="/servicios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>*/}
+                            {/*    <div className="dropdown-menu px-1" aria-labelledby="navbarDropdown">*/}
+                            {/*        <Link to="/servicios/cloud-computing" className="nav-link text-dark bg-light">*/}
+                            {/*            Cloud Computing*/}
+                            {/*        </Link>*/}
+                            {/*        <Link to="/servicios/#negocio" className="nav-link  text-dark bg-light">*/}
+                            {/*            Negocio*/}
+                            {/*        </Link>*/}
+                            {/*        <Link to="/servicios/#software" className="nav-link text-dark bg-light">*/}
+                            {/*            Desarrollo de Software*/}
+                            {/*        </Link>*/}
+                            {/*        <Link to="/servicios/#gestion" className="nav-link text-dark bg-light">*/}
+                            {/*            Gestion de Servicios*/}
+                            {/*        </Link>*/}
+                            {/*        <Link to="/servicios/#soporte" className="nav-link text-dark bg-light">*/}
+                            {/*            Soporte Técnico*/}
+                            {/*        </Link>*/}
+                            {/*        <Link to="/servicios/#educacion" className="nav-link text-dark bg-light">*/}
+                            {/*            Educación*/}
+                            {/*        </Link>*/}
+                            {/*    </div>*/}
+                            {/*</li>*/}
                                 <li className="nav-item ">
                                 <Link to="/partners" className="nav-link">  
                                     Partners
                                     </Link>
                                 </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="/servicios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clientes</a>
-                                <div className="dropdown-menu px-1" aria-labelledby="navbarDropdown">
-                                    <Link to="/clientes/#financieras" className="nav-link text-dark bg-light">Empresas Financieras</Link>
-                                    <Link to="/clientes/#gobierno" className="nav-link  text-dark bg-light">Empresas Gubernamentales</Link>
-                                    <Link to="/clientes/#industriales" className="nav-link text-dark bg-light">Empresas Industriales</Link>
-                                    <Link to="/clientes/#petroleras" className="nav-link text-dark bg-light">Empresas Petroleras</Link>
-                                    <Link to="/clientes/#emp_servicio" className="nav-link text-dark bg-light">Empresas Servicios</Link>
-                                    <Link to="/clientes/#tele" className="nav-link text-dark bg-light">Empresas Telecomunicaciones</Link>
-                                </div>
+                            {/*<li className="nav-item dropdown">*/}
+                            {/*    <a className="nav-link dropdown-toggle" href="/servicios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clientes</a>*/}
+                            {/*    <div className="dropdown-menu px-1" aria-labelledby="navbarDropdown">*/}
+                            {/*        <Link to="/clientes/#financieras" className="nav-link text-dark bg-light">Empresas Financieras</Link>*/}
+                            {/*        <Link to="/clientes/#gobierno" className="nav-link  text-dark bg-light">Empresas Gubernamentales</Link>*/}
+                            {/*        <Link to="/clientes/#industriales" className="nav-link text-dark bg-light">Empresas Industriales</Link>*/}
+                            {/*        <Link to="/clientes/#petroleras" className="nav-link text-dark bg-light">Empresas Petroleras</Link>*/}
+                            {/*        <Link to="/clientes/#emp_servicio" className="nav-link text-dark bg-light">Empresas Servicios</Link>*/}
+                            {/*        <Link to="/clientes/#tele" className="nav-link text-dark bg-light">Empresas Telecomunicaciones</Link>*/}
+                            {/*    </div>*/}
+                            {/*</li>*/}
+                            <li className="nav-item ">
+                                <Link to="/clientes" className="nav-link">
+                                    Clientes
+                                </Link>
                             </li>
+                            <li className="nav-item ">
+                                <Link to="/servicios" className="nav-link">
+                                    Servicios
+                                </Link>
+                            </li>
+
 
                             <li className="nav-item ">
                             <Link to="/home/#footer" className="nav-link">

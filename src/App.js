@@ -26,7 +26,9 @@ function App() {
             <Router>
                 <NavBar />
                 <Route path="/" exact component={Home} />
-                <Route path="/nosotros" component={Nosotros} />
+                <Route path="/nosotros" component={Nosotros} handler={Nosotros} />
+                <Route path="/nosotros/#vision" exact component={Nosotros} handler={CondicionesServicio} />
+                <Route path="/nosotros/#vision" exact component={Nosotros} handler={PoliticaPrivacidad} />
                 <Route path="/servicios" component={Servicios} />
                 <Route path="/partners" component={Partners} />
                 <Route path="/clientes" component={Clientes} />
@@ -68,13 +70,13 @@ const Home = () => {
                 <ControlledCarousel></ControlledCarousel>
             </div>
 
-            <Slide direction='right' in='true' mountOnEnter unmountOnExit timeout={1200}>
+            <Slide direction='right' mountOnEnter unmountOnExit timeout={1200}> {/*in='true'*/}
                 <div className='servicios-home'>
                     <h1 className='titulo-servicios-home'>Servicios</h1>
                     <div className='figures-icons'>
                         <Link to='/servicios/cloud-computing'>
                         <Figure>
-                            <Figure.Image width={171} height={180} alt="171x180" src={require('../src/images/cloud.png')} fluid="true"/>
+                            <Figure.Image width={171} height={180} alt="171x180" src={require('../src/images/cloud.png')}/> {/*fluid = "true"*/}
                             <Figure.Caption style={{ textAlign: 'center' }}>
                                 <h5> Cloud Computing</h5>
                             </Figure.Caption>
@@ -168,30 +170,42 @@ const Home = () => {
                             clientes</h5>
                 </div>
                 <div className="card-area">
-                         <SimpleCard  titulo="Empresas Financieras"
-                        image={require('../src/images/iconos-clientes/dinero.png')}
-                        texto="Some quick example text to build on the card title and make up the bulk of the cards content."
-                        to="/clientes/#financieras" />
-                        <SimpleCard  titulo="Empresas de Gobierno"
-                        image={require('../src/images/iconos-clientes/gobierno.png')}
-                        texto="Some quick example text to build on the card title and make up the bulk of the cards content."
-                        to="/clientes/#gobierno/" />
-                        <SimpleCard  titulo="Empresas Industriales"
-                        image={require('../src/images/iconos-clientes/fabrica.png')}
-                        texto="Some quick example text to build on the card title and make up the bulk of the cards content."
-                        to="/clientes/#industriales" />
-                        <SimpleCard  titulo="Empresas Petroleras"
-                        image={require('../src/images/iconos-clientes/industria-minera.png')}
-                        texto="Some quick example text to build on the card title and make up the bulk of the cards content."
-                        to="/clientes/#petroleras" />
-                        <SimpleCard  titulo="Empresas de    Servicios"
-                        image={require('../src/images/iconos-clientes/idea.png')}
-                        texto="Some quick example text to build on the card title and make up the bulk of the cards content."
-                        to="/clientes/#emp_servicio" />
-                        <SimpleCard  titulo="Empresas de Telecomunicación"
-                        image={require('../src/images/iconos-clientes/antena.png')}
-                        texto="Some quick example text to build on the card title and make up the bulk of the cards content."
-                        to="/clientes/#tele" />
+                         <Link to={"/clientes/#financieras"}>
+                             <SimpleCard  titulo="Empresas Financieras"
+                                          image={require('../src/images/iconos-clientes/dinero.png')}
+                                 // texto="Some quick example text to build on the card title and make up the bulk of the cards content."
+                                          to="/clientes/#financieras" />
+                         </Link>
+                        <Link to={"/clientes/#gobierno/"}>
+                            <SimpleCard  titulo="Empresas de Gobierno"
+                                         image={require('../src/images/iconos-clientes/gobierno.png')}
+                                // texto="Some quick example text to build on the card title and make up the bulk of the cards content."
+                                         to="/clientes/#gobierno/" />
+                        </Link>
+                        <Link to={"/clientes/#industriales"}>
+                            <SimpleCard  titulo="Empresas Industriales"
+                                         image={require('../src/images/iconos-clientes/fabrica.png')}
+                                // texto="Some quick example text to build on the card title and make up the bulk of the cards content."
+                                         to="/clientes/#industriales" />
+                        </Link>
+                        <Link to={"/clientes/#petroleras"}>
+                            <SimpleCard titulo="Empresas Petroleras"
+                                        image={require('../src/images/iconos-clientes/industria-minera.png')}
+                                // texto="Some quick example text to build on the card title and make up the bulk of the cards content."
+                                        to="/clientes/#petroleras" />
+                        </Link>
+                        <Link to={"/clientes/#emp_servicio"}>
+                            <SimpleCard  titulo="Empresas de    Servicios"
+                                         image={require('../src/images/iconos-clientes/idea.png')}
+                                // texto="Some quick example text to build on the card title and make up the bulk of the cards content."
+                                         to="/clientes/#emp_servicio" />
+                        </Link>
+                        <Link to={"/clientes/#tele"}>
+                            <SimpleCard  titulo="Empresas de Telecomunicación"
+                                         image={require('../src/images/iconos-clientes/antena.png')}
+                                // texto="Some quick example text to build on the card title and make up the bulk of the cards content."
+                                         to="/clientes/#tele" />
+                        </Link>
                    
                 </div>
             </div>
