@@ -136,7 +136,7 @@ class NavBar extends Component {
 
 
                             <li className="nav-item ">
-                            <Link to="/home/#footer" className="nav-link">
+                            <Link to="/contactanos" className="nav-link">
                                     Contactanos
                             </Link>
                             </li>

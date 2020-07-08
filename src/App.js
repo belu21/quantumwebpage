@@ -17,6 +17,7 @@ import Slide from '@material-ui/core/Slide';
 import Carousel from 'react-bootstrap/Carousel'
 import PoliticaPrivacidad from "./components/PoliticaPrivacidad";
 import CondicionesServicio from "./components/CondicionesServicio";
+import Contactanos from "./components/Contactanos";
 
 
 
@@ -34,6 +35,7 @@ function App() {
                 <Route path="/clientes" component={Clientes} />
                 <Route path="/politica-privacidad" component={PoliticaPrivacidad} />
                 <Route path="/condiciones-serv" component={CondicionesServicio} />
+                <Route path="/contactanos" component={Contactanos} />
                 <Footer />
             </Router>
         </div>

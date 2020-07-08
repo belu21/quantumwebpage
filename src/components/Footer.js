@@ -37,9 +37,6 @@ class Footer extends Component {
                         <Link to="#" className="nav-link text-light" style={{padding: 1}}><p>Politicas de privacidad</p></Link>
                     </div>
                 </div>
-                <div>
-                    <Contactanos></Contactanos>
-                </div>
                 
             </div>
            
