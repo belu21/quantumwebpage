@@ -41,7 +41,7 @@ class Footer extends Component {
             </div>
            
             <div className="derechos p-3 text-center text-light">
-                &copy; 2020 CommIT SRL. Todos los derechos reservados.
+                &copy; 2020 Quantum SRL. Todos los derechos reservados.
             </div>
         </footer>
     }

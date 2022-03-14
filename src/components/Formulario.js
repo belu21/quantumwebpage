@@ -56,7 +56,7 @@ export default formulario;
       render(){
     return (<div>
         
-       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfjD8RjD9PHANeHhms1_zp0-4ZlHJi4SaETSdT9I-xAtwI97Q/viewform?embedded=true" width="100%" height="781" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScI9piOT3DYqbx2K4r3MtKjpTEhyFcjTnzs35oVTtCZeWjoig/viewform?embedded=true" width="640" height="844" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
 
     </div>
     );

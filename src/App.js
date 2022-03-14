@@ -47,11 +47,11 @@ const Home = () => {
         <div>
             <div>
                 <div className="titulo-home">
-                    CommIT
+                    Quantum
                     </div>
                 <div className="tarjeta-subhome ">
-                    Tecnología de <br />
-                        Vanguardia
+                    Innovación  <br />
+                        Aplicada
                     </div>
                     <br/>
                     <br/>
@@ -60,7 +60,7 @@ const Home = () => {
                     <br/>
                 <div className="tarjeta-subhome1 container">
                     <p>
-                        La empresa CommIT tiene el nombre emblemático que representa la Tecnología en todo ámbito.
+                        La empresa Quantum tiene el nombre emblemático que representa la Tecnología en todo ámbito.
                         Actualmente contamos con un grupo de programadores y
                         expertos que la conforman y que ya llevan muchos años trabajando en dar soluciones IT a
                         clientes
@@ -166,7 +166,7 @@ const Home = () => {
             </div>
 
             <div className="headivs">
-                <div className="tittledivs">Clientes de COMMIT</div>
+                <div className="tittledivs">Clientes de Quantum</div>
                 <div>
                     <h5>Somos una empresa especializada en ofrecer servicios de vanguardia a los
                             clientes</h5>

@@ -11,7 +11,7 @@ class Servicios extends React.Component {
                 <div className="flex-service mb-5">
                     <div className="flex-service left-service m-0">
                         <p className="content">
-                            CommIT SRL ofrece una variedad de servicios con el objetivo de que nuestros clientes
+                            Quantum SRL ofrece una variedad de servicios con el objetivo de que nuestros clientes
                             queden satisfechos manteniendo los valores escenciales del negocio
                         </p>
                         <div className="flex-service jc-between half-and-half" id="cloud">
@@ -33,7 +33,7 @@ class Servicios extends React.Component {
                                     incidentes potencialmente desastrosos.
                                     Éstos van desde cortes en el suministro de energía provocados por tormentas hasta la
                                     pérdida de datos causada por equivocaciones de los empleados o por criminales
-                                    informáticos (Disaster Recovery, Site Recovery); CommIT SRL te da la solución.</p>
+                                    informáticos (Disaster Recovery, Site Recovery); Quantum SRL te da la solución.</p>
                             </div>
                         </div>
                     </div>
